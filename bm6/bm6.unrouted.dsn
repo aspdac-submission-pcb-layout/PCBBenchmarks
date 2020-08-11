@@ -1,0 +1,474 @@
+(pcb /Users/devon/TU1/PCBBenchmarks/bm6/bm6.unrouted.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(5.1.4-0-10_14)")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer Top
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer Bottom
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  159501 -135004  137501 -135004  137501 -75003.6  159501 -75003.6
+            159501 -135004)
+    )
+    (via "Via[0-1]_706.4:300_um")
+    (rule
+      (width 200)
+      (clearance 127.1)
+      (clearance 127.1 (type default_smd))
+      (clearance 31.75 (type smd_smd))
+    )
+  )
+  (placement
+    (component piezoMusic:1X14
+      (place U2 157302 -96088.2 front 90)
+    )
+    (component piezoMusic:1X14::1
+      (place U7 139446 -96139 front 270)
+    )
+    (component piezoMusic:FTDI_BASIC
+      (place U12 148463 -76835 front 180)
+    )
+    (component piezoMusic:2X3
+      (place U6 148463 -111404 front 180)
+    )
+    (component piezoMusic:1X03
+      (place U1 157353 -130429 front 270)
+    )
+    (component piezoMusic:1X05
+      (place Ue 157353 -120269 front 90)
+      (place U20 139573 -120269 front 270)
+    )
+    (component piezoMusic:0603
+      (place U3 142881 -83713.6 front 270)
+      (place U4 147951 -89433.6 front 180)
+      (place U8 147681 -107394 front 180)
+      (place U9 142871 -87033.6 front 270)
+      (place U15 144181 -123334 front 0)
+      (place U16 144181 -121304 front 0)
+      (place U17 144181 -119274 front 0)
+      (place U18 144191 -117244 front 0)
+      (place U19 144211 -115054 front 0)
+      (place U25 141731 -131794 front 270)
+      (place U26 139471 -131794 front 270)
+      (place U28 144531 -80683.6 front 180)
+    )
+    (component "piezoMusic:LED-0603"
+      (place U5 144951 -106494 front 90)
+      (place U23 141741 -128574 front 90)
+      (place U24 139461 -128574 front 90)
+    )
+    (component "piezoMusic:TQFP32-08"
+      (place U10 148411 -96603.6 front 90)
+    )
+    (component "piezoMusic:RESONATOR-SMD"
+      (place U11 150011 -103394 front 180)
+    )
+    (component piezoMusic:TACTILE_SWITCH_SMD_6.2MM_TALL
+      (place U13 148581 -84543.6 front 180)
+    )
+    (component piezoMusic:SO14
+      (place U14 150941 -119204 front 90)
+    )
+    (component piezoMusic:PKMCS
+      (place U22 149011 -129074 front 0)
+    )
+    (component piezoMusic:FUSC1608X100N
+      (place U27 146271 -79103.6 front 180)
+    )
+  )
+  (library
+    (image piezoMusic:1X14
+      (pin Round[A]Pad_1879.6_um (rotate 90) 14 16520 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 13 13980 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 12 11440 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 11 8900 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 10 6360 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 9 3820 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 8 1280 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 7 -1260 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 6 -3800 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 5 -6340 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 4 -8880 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 3 -11420 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 2 -13960 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 1 -16500 0)
+    )
+    (image piezoMusic:1X14::1
+      (pin Round[A]Pad_1879.6_um (rotate 90) 14 16510 4)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 13 13970 4)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 12 11430 4)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 11 8890 4)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 10 6350 4)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 9 3810 4)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 8 1270 4)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 7 -1270 4)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 6 -3810 4)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 5 -6350 4)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 4 -8890 4)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 3 -11430 4)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 2 -13970 4)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 1 -16510 4)
+    )
+    (image piezoMusic:FTDI_BASIC
+      (pin Round[A]Pad_1879.6_um (rotate 90) GND 6350 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) CTS 3810 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) VCC 1270 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) TXO -1270 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) RXI -3810 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) DTR -6350 0)
+    )
+    (image piezoMusic:2X3
+      (pin Round[A]Pad_1879.6_um 6 2540 1270)
+      (pin Round[A]Pad_1879.6_um 5 2540 -1270)
+      (pin Round[A]Pad_1879.6_um 4 0 1270)
+      (pin Round[A]Pad_1879.6_um 3 0 -1270)
+      (pin Round[A]Pad_1879.6_um 2 -2540 1270)
+      (pin Round[A]Pad_1879.6_um 1 -2540 -1270)
+    )
+    (image piezoMusic:1X03
+      (pin Round[A]Pad_1879.6_um (rotate 90) 3 2540 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 2 0 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 1 -2540 0)
+    )
+    (image piezoMusic:1X05
+      (pin Round[A]Pad_1879.6_um (rotate 90) 5 5080 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 4 2540 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 3 0 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 2 -2540 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 1 -5080 0)
+    )
+    (image piezoMusic:0603
+      (pin Rect[T]Pad_1100x1000_um 2 850 0)
+      (pin Rect[T]Pad_1100x1000_um 1 -850 0)
+    )
+    (image "piezoMusic:LED-0603"
+      (pin RoundRect[T]Pad_1000x1000_150.571_um (rotate 270) A -877 0)
+      (pin RoundRect[T]Pad_1000x1000_150.571_um (rotate 270) C 877 0)
+    )
+    (image "piezoMusic:TQFP32-08"
+      (pin Rect[T]Pad_558.8x1270_um 32 -2800 4292.6)
+      (pin Rect[T]Pad_558.8x1270_um 31 -2000 4292.6)
+      (pin Rect[T]Pad_558.8x1270_um 30 -1200 4292.6)
+      (pin Rect[T]Pad_558.8x1270_um 29 -400 4292.6)
+      (pin Rect[T]Pad_558.8x1270_um 28 400 4292.6)
+      (pin Rect[T]Pad_558.8x1270_um 27 1200 4292.6)
+      (pin Rect[T]Pad_558.8x1270_um 26 2000 4292.6)
+      (pin Rect[T]Pad_558.8x1270_um 25 2800 4292.6)
+      (pin Rect[T]Pad_1270x558.8_um 24 4292.6 2800)
+      (pin Rect[T]Pad_1270x558.8_um 23 4292.6 2000)
+      (pin Rect[T]Pad_1270x558.8_um 22 4292.6 1200)
+      (pin Rect[T]Pad_1270x558.8_um 21 4292.6 400)
+      (pin Rect[T]Pad_1270x558.8_um 20 4292.6 -400)
+      (pin Rect[T]Pad_1270x558.8_um 19 4292.6 -1200)
+      (pin Rect[T]Pad_1270x558.8_um 18 4292.6 -2000)
+      (pin Rect[T]Pad_1270x558.8_um 17 4292.6 -2800)
+      (pin Rect[T]Pad_558.8x1270_um 16 2800 -4292.6)
+      (pin Rect[T]Pad_558.8x1270_um 15 2000 -4292.6)
+      (pin Rect[T]Pad_558.8x1270_um 14 1200 -4292.6)
+      (pin Rect[T]Pad_558.8x1270_um 13 400 -4292.6)
+      (pin Rect[T]Pad_558.8x1270_um 12 -400 -4292.6)
+      (pin Rect[T]Pad_558.8x1270_um 11 -1200 -4292.6)
+      (pin Rect[T]Pad_558.8x1270_um 10 -2000 -4292.6)
+      (pin Rect[T]Pad_558.8x1270_um 9 -2800 -4292.6)
+      (pin Rect[T]Pad_1270x558.8_um 8 -4292.6 -2800)
+      (pin Rect[T]Pad_1270x558.8_um 7 -4292.6 -2000)
+      (pin Rect[T]Pad_1270x558.8_um 6 -4292.6 -1200)
+      (pin Rect[T]Pad_1270x558.8_um 5 -4292.6 -400)
+      (pin Rect[T]Pad_1270x558.8_um 4 -4292.6 400)
+      (pin Rect[T]Pad_1270x558.8_um 3 -4292.6 1200)
+      (pin Rect[T]Pad_1270x558.8_um 2 -4292.6 2000)
+      (pin Rect[T]Pad_1270x558.8_um 1 -4292.6 2800)
+    )
+    (image "piezoMusic:RESONATOR-SMD"
+      (pin Rect[T]Pad_700x1700_um 3 1200 0)
+      (pin Rect[T]Pad_700x1700_um 2 0 0)
+      (pin Rect[T]Pad_700x1700_um 1 -1200 0)
+    )
+    (image piezoMusic:TACTILE_SWITCH_SMD_6.2MM_TALL
+      (pin Rect[T]Pad_1300x1550_um (rotate 90) B2 3975 2250)
+      (pin Rect[T]Pad_1300x1550_um (rotate 90) B1 -3975 2250)
+      (pin Rect[T]Pad_1300x1550_um (rotate 90) A2 3975 -2250)
+      (pin Rect[T]Pad_1300x1550_um (rotate 90) A1 -3975 -2250)
+    )
+    (image piezoMusic:SO14
+      (pin Rect[T]Pad_600x2200_um 8 3810 2600)
+      (pin Rect[T]Pad_600x2200_um 10 1270 2600)
+      (pin Rect[T]Pad_600x2200_um 7 3810 -2600)
+      (pin Rect[T]Pad_600x2200_um 5 1270 -2600)
+      (pin Rect[T]Pad_600x2200_um 9 2540 2600)
+      (pin Rect[T]Pad_600x2200_um 6 2540 -2600)
+      (pin Rect[T]Pad_600x2200_um 11 0 2600)
+      (pin Rect[T]Pad_600x2200_um 12 -1270 2600)
+      (pin Rect[T]Pad_600x2200_um 14 -3810 2600)
+      (pin Rect[T]Pad_600x2200_um 4 0 -2600)
+      (pin Rect[T]Pad_600x2200_um 3 -1270 -2600)
+      (pin Rect[T]Pad_600x2200_um 1 -3810 -2600)
+      (pin Rect[T]Pad_600x2200_um 13 -2540 2600)
+      (pin Rect[T]Pad_600x2200_um 2 -2540 -2600)
+    )
+    (image piezoMusic:PKMCS
+      (pin Rect[T]Pad_3400x1300_um (rotate 90) 2 4350 0)
+      (pin Rect[T]Pad_3400x1300_um (rotate 90) 1 -4350 0)
+    )
+    (image piezoMusic:FUSC1608X100N
+      (pin Rect[T]Pad_1070x770_um (rotate 90) 2 900 0)
+      (pin Rect[T]Pad_1070x770_um (rotate 90) 1 -900 0)
+    )
+    (padstack Round[A]Pad_1879.6_um
+      (shape (circle Top 1879.6))
+      (shape (circle Bottom 1879.6))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_1000x1000_150.571_um
+      (shape (polygon Top 0  376.146 498.283  401.498 491.49  425.285 480.398  446.785 465.344
+            465.344 446.785  480.398 425.286  491.49 401.498  498.283 376.146
+            500.571 350  500.571 -350  498.283 -376.146  491.49 -401.498
+            480.398 -425.285  465.344 -446.785  446.785 -465.344  425.286 -480.398
+            401.498 -491.49  376.146 -498.283  350 -500.571  -350 -500.571
+            -376.146 -498.283  -401.498 -491.49  -425.285 -480.398  -446.785 -465.344
+            -465.344 -446.785  -480.398 -425.286  -491.49 -401.498  -498.283 -376.146
+            -500.571 -350  -500.571 350  -498.283 376.146  -491.49 401.498
+            -480.398 425.285  -465.344 446.785  -446.785 465.344  -425.286 480.398
+            -401.498 491.49  -376.146 498.283  -350 500.571  350 500.571
+            376.146 498.283))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_3400x1300_um
+      (shape (rect Top -1700 -650 1700 650))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_558.8x1270_um
+      (shape (rect Top -279.4 -635 279.4 635))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_600x2200_um
+      (shape (rect Top -300 -1100 300 1100))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_700x1700_um
+      (shape (rect Top -350 -850 350 850))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1070x770_um
+      (shape (rect Top -535 -385 535 385))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1100x1000_um
+      (shape (rect Top -550 -500 550 500))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1270x558.8_um
+      (shape (rect Top -635 -279.4 635 279.4))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1300x1550_um
+      (shape (rect Top -650 -775 650 775))
+      (attach off)
+    )
+    (padstack "Via[0-1]_706.4:300_um"
+      (shape (circle Top 706.4))
+      (shape (circle Bottom 706.4))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins U2-2 U7-4 U12-GND U6-6 U4-2 U5-C U10-21 U10-5 U10-3 U11-2 U13-A2 U14-14
+        U22-1 U23-C U24-C U28-2)
+    )
+    (net VCC
+      (pins U2-1 U7-3 U7-2 U7-1 U6-2 U9-2 U10-18 U10-6 U10-4 U14-4 U14-1 U14-2 U27-2
+        U28-1)
+    )
+    (net /D2
+      (pins U2-3 U10-32)
+    )
+    (net /TXO
+      (pins U7-6 U12-RXI U10-31)
+    )
+    (net /RXI
+      (pins U7-5 U12-TXO U10-30)
+    )
+    (net /RST
+      (pins U6-5 U3-2 U9-1 U10-29 U13-B2)
+    )
+    (net /A5
+      (pins U7-12 U10-28)
+    )
+    (net /A4
+      (pins U7-11 U10-27)
+    )
+    (net /A3
+      (pins U7-10 U10-26)
+    )
+    (net /A2
+      (pins U7-9 U10-25)
+    )
+    (net /A1
+      (pins U7-8 U10-24)
+    )
+    (net /A0
+      (pins U7-7 U10-23)
+    )
+    (net /A7
+      (pins U7-14 U10-22)
+    )
+    (net "Net-(C6-Pad1)"
+      (pins U4-1 U10-20)
+    )
+    (net /A6
+      (pins U7-13 U10-19)
+    )
+    (net /SCK
+      (pins U2-14 U6-3 U8-1 U10-17)
+    )
+    (net /MISO
+      (pins U2-13 U6-1 U10-16)
+    )
+    (net /MOSI
+      (pins U2-12 U6-4 U10-15)
+    )
+    (net /D10
+      (pins U2-11 U10-14)
+    )
+    (net /D9
+      (pins U2-10 U10-13)
+    )
+    (net /D8
+      (pins U2-9 U10-12)
+    )
+    (net /D7
+      (pins U2-8 U10-11)
+    )
+    (net /D6
+      (pins U2-7 U10-10)
+    )
+    (net /D5
+      (pins U2-6 U10-9)
+    )
+    (net "Net-(U3-Pad8)"
+      (pins U10-8 U11-1)
+    )
+    (net "Net-(U3-Pad7)"
+      (pins U10-7 U11-3)
+    )
+    (net /D4
+      (pins U2-5 U10-2)
+    )
+    (net /D3
+      (pins U2-4 U10-1)
+    )
+    (net "Net-(D1-PadA)"
+      (pins U5-A U8-2)
+    )
+    (net /DTR
+      (pins U12-DTR U3-1)
+    )
+    (net "Net-(J1-PadCTS)"
+      (pins U12-CTS)
+    )
+    (net "Net-(F1-Pad1)"
+      (pins U12-VCC U27-1)
+    )
+    (net /OUT1
+      (pins Ue-2 U14-8)
+    )
+    (net "Net-(IC1-Pad10)"
+      (pins U14-10 U18-2)
+    )
+    (net /OUT2
+      (pins Ue-3 U14-7)
+    )
+    (net /OUT4
+      (pins Ue-5 U14-5)
+    )
+    (net "Net-(IC1-Pad9)"
+      (pins U14-9 U19-2)
+    )
+    (net /OUT3
+      (pins Ue-4 U14-6)
+    )
+    (net "Net-(IC1-Pad11)"
+      (pins U14-11 U17-2)
+    )
+    (net "Net-(IC1-Pad12)"
+      (pins U14-12 U16-2)
+    )
+    (net /GO
+      (pins Ue-1 U14-3)
+    )
+    (net "Net-(IC1-Pad13)"
+      (pins U14-13 U15-2)
+    )
+    (net "Net-(J2-Pad5)"
+      (pins U20-5 U15-1)
+    )
+    (net "Net-(J2-Pad4)"
+      (pins U20-4 U16-1)
+    )
+    (net "Net-(J2-Pad3)"
+      (pins U20-3 U17-1)
+    )
+    (net "Net-(J2-Pad2)"
+      (pins U20-2 U18-1)
+    )
+    (net "Net-(J2-Pad1)"
+      (pins U20-1 U19-1)
+    )
+    (net "Net-(J4-Pad1)"
+      (pins U1-1 U22-2)
+    )
+    (net "Net-(J4-Pad3)"
+      (pins U1-3 U26-2)
+    )
+    (net "Net-(J4-Pad2)"
+      (pins U1-2 U25-2)
+    )
+    (net "Net-(D2-PadA)"
+      (pins U23-A U25-1)
+    )
+    (net "Net-(D3-PadA)"
+      (pins U24-A U26-1)
+    )
+    (class kicad_default "" /A0 /A1 /A2 /A3 /A4 /A5 /A6 /A7 /D10 /D2 /D3 /D4
+      /D5 /D6 /D7 /D8 /D9 /DTR /GO /MISO /MOSI /OUT1 /OUT2 /OUT3 /OUT4 /RST
+      /RXI /SCK /TXO GND "Net-(C6-Pad1)" "Net-(D1-PadA)" "Net-(D2-PadA)" "Net-(D3-PadA)"
+      "Net-(IC1-Pad10)" "Net-(IC1-Pad11)" "Net-(IC1-Pad12)" "Net-(IC1-Pad13)"
+      "Net-(IC1-Pad9)" "Net-(J1-PadCTS)" "Net-(J2-Pad1)" "Net-(J2-Pad2)" "Net-(J2-Pad3)"
+      "Net-(J2-Pad4)" "Net-(J2-Pad5)" "Net-(J4-Pad1)" "Net-(J4-Pad2)" "Net-(J4-Pad3)"
+      "Net-(U3-Pad7)" "Net-(U3-Pad8)"
+      (circuit
+        (use_via Via[0-1]_706.4:300_um)
+      )
+      (rule
+        (width 200)
+        (clearance 127.1)
+      )
+    )
+    (class Power "Net-(F1-Pad1)" VCC
+      (circuit
+        (use_via Via[0-1]_706.4:300_um)
+      )
+      (rule
+        (width 381)
+        (clearance 127.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

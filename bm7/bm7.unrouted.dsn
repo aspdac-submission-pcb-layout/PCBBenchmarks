@@ -1,0 +1,174 @@
+(pcb /Users/devon/TU1/PCBBenchmarks/bm7/bm7.unrouted.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(5.1.4-0-10_14)")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer Top
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer Bottom
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  158750 -111938  138252 -111938  138252 -98069.4  158750 -98069.4
+            158750 -111938)
+    )
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 304.8)
+      (clearance 152.5)
+      (clearance 152.5 (type default_smd))
+      (clearance 38.1 (type smd_smd))
+    )
+  )
+  (placement
+    (component imu:C0805
+      (place U1 149606 -100863 front 270)
+      (place U2 151867 -100863 front 270)
+      (place U3 140564 -105232 front 90)
+      (place U4 142799 -100686 front 180)
+    )
+    (component "imu:LGA-24"
+      (place U5 145059 -105207 front 270)
+    )
+    (component imu:R0805
+      (place U6 149479 -108610 front 270)
+      (place U7 151740 -108585 front 270)
+    )
+    (component "imu:MA04-1"
+      (place U8 156083 -104902 front 90)
+    )
+  )
+  (library
+    (image imu:C0805
+      (pin Rect[T]Pad_1300x1500_um 2 950 0)
+      (pin Rect[T]Pad_1300x1500_um 1 -950 0)
+    )
+    (image "imu:LGA-24"
+      (pin Rect[T]Pad_290x1208_um 24 -1250 2129)
+      (pin Rect[T]Pad_290x1208_um 23 -750 2129)
+      (pin Rect[T]Pad_290x1208_um 22 -250 2129)
+      (pin Rect[T]Pad_290x1208_um 21 250 2129)
+      (pin Rect[T]Pad_290x1208_um 20 750 2129)
+      (pin Rect[T]Pad_290x1208_um 19 1250 2129)
+      (pin Rect[T]Pad_290x1208_um (rotate 270) 18 2129 1250)
+      (pin Rect[T]Pad_290x1208_um (rotate 270) 17 2129 750)
+      (pin Rect[T]Pad_290x1208_um (rotate 270) 16 2129 250)
+      (pin Rect[T]Pad_290x1208_um (rotate 270) 15 2129 -250)
+      (pin Rect[T]Pad_290x1208_um (rotate 270) 14 2129 -750)
+      (pin Rect[T]Pad_290x1208_um (rotate 270) 13 2129 -1250)
+      (pin Rect[T]Pad_290x1208_um (rotate 180) 12 1250 -2129)
+      (pin Rect[T]Pad_290x1208_um (rotate 180) 11 750 -2129)
+      (pin Rect[T]Pad_290x1208_um (rotate 180) 10 250 -2129)
+      (pin Rect[T]Pad_290x1208_um (rotate 180) 9 -250 -2129)
+      (pin Rect[T]Pad_290x1208_um (rotate 180) 8 -750 -2129)
+      (pin Rect[T]Pad_290x1208_um (rotate 180) 7 -1250 -2129)
+      (pin Rect[T]Pad_290x1208_um (rotate 90) 6 -2129 -1250)
+      (pin Rect[T]Pad_290x1208_um (rotate 90) 5 -2129 -750)
+      (pin Rect[T]Pad_290x1208_um (rotate 90) 4 -2129 -250)
+      (pin Rect[T]Pad_290x1208_um (rotate 90) 3 -2129 250)
+      (pin Rect[T]Pad_290x1208_um (rotate 90) 2 -2129 750)
+      (pin Rect[T]Pad_290x1208_um (rotate 90) 1 -2129 1250)
+    )
+    (image imu:R0805
+      (pin Rect[T]Pad_1300x1500_um 2 850 0)
+      (pin Rect[T]Pad_1300x1500_um 1 -850 0)
+    )
+    (image "imu:MA04-1"
+      (pin Oval[A]Pad_3048x1524_um (rotate 90) 1 -3810 0)
+      (pin Oval[A]Pad_3048x1524_um (rotate 90) 2 -1270 0)
+      (pin Oval[A]Pad_3048x1524_um (rotate 90) 3 1270 0)
+      (pin Oval[A]Pad_3048x1524_um (rotate 90) 4 3810 0)
+    )
+    (padstack Oval[A]Pad_3048x1524_um
+      (shape (path Top 1524  -762 0  762 0))
+      (shape (path Bottom 1524  -762 0  762 0))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_290x1208_um
+      (shape (rect Top -145 -604 145 604))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1300x1500_um
+      (shape (rect Top -650 -750 650 750))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle Top 800))
+      (shape (circle Bottom 800))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins U1-2 U2-2 U4-1 U5-23 U5-22 U5-6 U5-5 U5-4 U5-3 U5-2 U8-4)
+    )
+    (net VDD
+      (pins U1-1 U2-1 U5-18 U5-17 U5-16 U5-15 U6-2 U7-2 U8-1)
+    )
+    (net /SDA
+      (pins U5-24 U8-3)
+    )
+    (net /SCL
+      (pins U5-21 U8-2)
+    )
+    (net "Net-(R2-Pad1)"
+      (pins U5-20 U7-1)
+    )
+    (net "Net-(R1-Pad1)"
+      (pins U5-19 U6-1)
+    )
+    (net "Net-(U1-Pad14)"
+      (pins U5-14)
+    )
+    (net "Net-(U1-Pad13)"
+      (pins U5-13)
+    )
+    (net "Net-(U1-Pad12)"
+      (pins U5-12)
+    )
+    (net "Net-(U1-Pad11)"
+      (pins U5-11)
+    )
+    (net "Net-(U1-Pad10)"
+      (pins U5-10)
+    )
+    (net "Net-(C1-Pad1)"
+      (pins U3-1 U5-9)
+    )
+    (net "Net-(C1-Pad2)"
+      (pins U3-2 U5-8)
+    )
+    (net "Net-(C2-Pad2)"
+      (pins U4-2 U5-7)
+    )
+    (net "Net-(U1-Pad1)"
+      (pins U5-1)
+    )
+    (class kicad_default "" /SCL /SDA GND "Net-(C1-Pad1)" "Net-(C1-Pad2)"
+      "Net-(C2-Pad2)" "Net-(R1-Pad1)" "Net-(R2-Pad1)" "Net-(U1-Pad1)" "Net-(U1-Pad10)"
+      "Net-(U1-Pad11)" "Net-(U1-Pad12)" "Net-(U1-Pad13)" "Net-(U1-Pad14)"
+      VDD
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 304.8)
+        (clearance 152.5)
+      )
+    )
+  )
+  (wiring
+  )
+)

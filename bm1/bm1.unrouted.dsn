@@ -1,0 +1,851 @@
+(pcb /Users/devon/TU1/PCBBenchmarks/bm1/bm1.unrouted.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(5.1.4-0-10_14)")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer Top
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer Bottom
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  196761 -80873.6  196761 -91033.6  199301 -93573.6  199301 -127864
+            196761 -130404  196761 -131674  97701.1 -131674  97701.1 -78333.6
+            194221 -78333.6  196761 -80873.6)
+    )
+    (via "Via[0-1]_914.4:400_um")
+    (rule
+      (width 250)
+      (clearance 63.1)
+      (clearance 63.1 (type default_smd))
+      (clearance 15.75 (type smd_smd))
+    )
+  )
+  (placement
+    (component Arduino_MEGA_Reference_Design:PN61729
+      (place U54 98958.4 -93522.8 front 270)
+    )
+    (component "Arduino_MEGA_Reference_Design:DC-21MM"
+      (place U55 103035 -123292 front 90)
+    )
+    (component Arduino_MEGA_Reference_Design:1X01
+      (place U1 191681 -124054 front 0)
+      (place U2 194221 -124054 front 0)
+      (place U9 194221 -80873.6 front 0)
+      (place U10 191681 -80873.6 front 0)
+    )
+    (component Arduino_MEGA_Reference_Design:HC49_S
+      (place U3 140881 -118466 front 90)
+    )
+    (component Arduino_MEGA_Reference_Design:SOT223
+      (place U4 104813 -104242 front 90)
+      (place U16 106337 -113894 front 90)
+    )
+    (component Arduino_MEGA_Reference_Design:1X06
+      (place U5 137071 -129134 front 0)
+    )
+    (component "Arduino_MEGA_Reference_Design:B3F-10XX"
+      (place U6 171869 -103734 front 180)
+    )
+    (component Arduino_MEGA_Reference_Design:2X03
+      (place U7 162598 -103734 front 270)
+    )
+    (component Arduino_MEGA_Reference_Design:JP4
+      (place U8 129451 -98399.6 front 270)
+    )
+    (component Arduino_MEGA_Reference_Design:1X08
+      (place U11 157391 -129134 front 0)
+      (place U12 180251 -129134 front 0)
+      (place U13 175171 -80873.6 front 180)
+      (place U14 152311 -80873.6 front 180)
+      (place U15 130721 -80873.6 front 180)
+    )
+    (component Arduino_MEGA_Reference_Design:SMB
+      (place U17 114973 -122530 front 270)
+    )
+    (component Arduino_MEGA_Reference_Design:SMC_D
+      (place U18 120561 -125578 front 270)
+      (place U19 126149 -125578 front 270)
+    )
+    (component Arduino_MEGA_Reference_Design:C0805RND
+      (place U20 136309 -124562 front 0)
+      (place U21 136309 -122022 front 0)
+      (place U22 136309 -119482 front 0)
+      (place U23 162090 -94208.6 front 180)
+      (place U25 178473 -97129.6 front 180)
+      (place U26 178473 -94589.6 front 180)
+      (place U27 178473 -92049.6 front 180)
+      (place U28 162471 -113259 front 0)
+      (place U29 119037 -105258 front 0)
+      (place U30 112941 -85445.6 front 0)
+      (place U31 117513 -85445.6 front 0)
+      (place U32 124117 -95097.6 front 0)
+      (place U34 124117 -90017.6 front 180)
+      (place U35 124117 -87477.6 front 0)
+      (place U36 113957 -105258 front 0)
+      (place U39 124117 -102718 front 0)
+      (place U42 113957 -115418 front 180)
+      (place U43 113957 -112878 front 0)
+      (place U44 119037 -115418 front 180)
+      (place U45 119037 -112878 front 180)
+      (place U46 124117 -115418 front 0)
+      (place U47 124117 -112878 front 0)
+      (place U48 124117 -110439 front 180)
+    )
+    (component Arduino_MEGA_Reference_Design:0805RND
+      (place U24 173901 -94589.6 front 180)
+      (place U33 124117 -92557.6 front 180)
+      (place U37 124117 -97637.6 front 180)
+      (place U38 124117 -100178 front 180)
+      (place U40 124117 -105258 front 0)
+      (place U41 124117 -107798 front 0)
+    )
+    (component Arduino_MEGA_Reference_Design:L1812
+      (place U49 115989 -101194 front 0)
+    )
+    (component Arduino_MEGA_Reference_Design:SO08
+      (place U50 116497 -109068 front 270)
+    )
+    (component Arduino_MEGA_Reference_Design:2X08
+      (place U51 192951 -112624 front 90)
+      (place U52 192951 -92303.6 front 90)
+    )
+    (component Arduino_MEGA_Reference_Design:SSOP28
+      (place U53 115989 -92557.6 front 0)
+    )
+    (component Arduino_MEGA_Reference_Design:TQFP100
+      (place U56 148501 -103327 front 0)
+    )
+    (component Arduino_MEGA_Reference_Design:SJ
+      (place U57 128181 -110719 front 270)
+    )
+  )
+  (library
+    (image Arduino_MEGA_Reference_Design:PN61729
+      (pin Round[A]Pad_3216_um P$2 6000 2540)
+      (pin Round[A]Pad_3216_um P$1 -6000 2540)
+      (pin Round[A]Pad_1458_um 4 1250 5250)
+      (pin Round[A]Pad_1458_um 3 -1250 5250)
+      (pin Round[A]Pad_1458_um 2 -1250 7250)
+      (pin Round[A]Pad_1458_um 1 1250 7250)
+    )
+    (image "Arduino_MEGA_Reference_Design:DC-21MM"
+      (pin Round[A]Pad_4826_um 3 -76.2 279.4)
+      (pin Round[A]Pad_4826_um 2 -76.2 -5715)
+      (pin Round[A]Pad_4826_um 1 -5080 -2717.8)
+    )
+    (image Arduino_MEGA_Reference_Design:1X01
+      (pin Round[A]Pad_1524_um 1 0 0)
+    )
+    (image Arduino_MEGA_Reference_Design:HC49_S
+      (pin Round[A]Pad_1320.8_um 2 2413 0)
+      (pin Round[A]Pad_1320.8_um 1 -2413 0)
+    )
+    (image Arduino_MEGA_Reference_Design:SOT223
+      (pin Rect[T]Pad_3600x2200_um 4 0 3099)
+      (pin Rect[T]Pad_1219.2x2235.2_um 3 2311.4 -3098.8)
+      (pin Rect[T]Pad_1219.2x2235.2_um 2 0 -3098.8)
+      (pin Rect[T]Pad_1219.2x2235.2_um 1 -2311.4 -3098.8)
+    )
+    (image Arduino_MEGA_Reference_Design:1X06
+      (pin Oval[A]Pad_3048x1524_um (rotate 90) 6 6350 0)
+      (pin Oval[A]Pad_3048x1524_um (rotate 90) 5 3810 0)
+      (pin Oval[A]Pad_3048x1524_um (rotate 90) 4 1270 0)
+      (pin Oval[A]Pad_3048x1524_um (rotate 90) 3 -1270 0)
+      (pin Oval[A]Pad_3048x1524_um (rotate 90) 2 -3810 0)
+      (pin Oval[A]Pad_3048x1524_um (rotate 90) 1 -6350 0)
+    )
+    (image "Arduino_MEGA_Reference_Design:B3F-10XX"
+      (pin Oval[A]Pad_3048x1524_um 4 3251.2 -2260.6)
+      (pin Oval[A]Pad_3048x1524_um 2 3251.2 2260.6)
+      (pin Oval[A]Pad_3048x1524_um 3 -3251.2 -2260.6)
+      (pin Oval[A]Pad_3048x1524_um 1 -3251.2 2260.6)
+    )
+    (image Arduino_MEGA_Reference_Design:2X03
+      (pin Round[A]Pad_1524_um 6 2540 1270)
+      (pin Round[A]Pad_1524_um 5 2540 -1270)
+      (pin Round[A]Pad_1524_um 4 0 1270)
+      (pin Round[A]Pad_1524_um 3 0 -1270)
+      (pin Round[A]Pad_1524_um 2 -2540 1270)
+      (pin Round[A]Pad_1524_um 1 -2540 -1270)
+    )
+    (image Arduino_MEGA_Reference_Design:JP4
+      (pin Oval[A]Pad_2844.8x1422.4_um (rotate 90) 4 3810 0)
+      (pin Oval[A]Pad_2844.8x1422.4_um (rotate 90) 3 1270 0)
+      (pin Oval[A]Pad_2844.8x1422.4_um (rotate 90) 2 -1270 0)
+      (pin Oval[A]Pad_2844.8x1422.4_um (rotate 90) 1 -3810 0)
+    )
+    (image Arduino_MEGA_Reference_Design:1X08
+      (pin Oval[A]Pad_3048x1524_um (rotate 90) 8 8890 0)
+      (pin Oval[A]Pad_3048x1524_um (rotate 90) 7 6350 0)
+      (pin Oval[A]Pad_3048x1524_um (rotate 90) 6 3810 0)
+      (pin Oval[A]Pad_3048x1524_um (rotate 90) 5 1270 0)
+      (pin Oval[A]Pad_3048x1524_um (rotate 90) 4 -1270 0)
+      (pin Oval[A]Pad_3048x1524_um (rotate 90) 3 -3810 0)
+      (pin Oval[A]Pad_3048x1524_um (rotate 90) 2 -6350 0)
+      (pin Oval[A]Pad_3048x1524_um (rotate 90) 1 -8890 0)
+    )
+    (image Arduino_MEGA_Reference_Design:SMB
+      (pin Rect[T]Pad_2400x2400_um A 2200 0)
+      (pin Rect[T]Pad_2400x2400_um C -2200 0)
+    )
+    (image Arduino_MEGA_Reference_Design:SMC_D
+      (pin Rect[T]Pad_2400x2800_um (rotate 180) - 3150 0)
+      (pin Rect[T]Pad_2400x2800_um + -3150 0)
+    )
+    (image Arduino_MEGA_Reference_Design:C0805RND
+      (pin RoundRect[T]Pad_1300x1500_652.473_um 2 977 0)
+      (pin RoundRect[T]Pad_1300x1500_652.473_um 1 -977 0)
+    )
+    (image Arduino_MEGA_Reference_Design:0805RND
+      (pin RoundRect[T]Pad_1270x1270_573.675_um (rotate 90) P$2 1143 0)
+      (pin RoundRect[T]Pad_1270x1270_573.675_um (rotate 90) P$1 -1143 0)
+    )
+    (image Arduino_MEGA_Reference_Design:L1812
+      (pin Rect[T]Pad_1900x3400_um 2 1950 0)
+      (pin Rect[T]Pad_1900x3400_um 1 -1950 0)
+    )
+    (image Arduino_MEGA_Reference_Design:SO08
+      (pin Rect[T]Pad_600x2200_um 5 1905 2600)
+      (pin Rect[T]Pad_600x2200_um 6 635 2600)
+      (pin Rect[T]Pad_600x2200_um 8 -1905 2600)
+      (pin Rect[T]Pad_600x2200_um 4 1905 -2600)
+      (pin Rect[T]Pad_600x2200_um 3 635 -2600)
+      (pin Rect[T]Pad_600x2200_um 1 -1905 -2600)
+      (pin Rect[T]Pad_600x2200_um 7 -635 2600)
+      (pin Rect[T]Pad_600x2200_um 2 -635 -2600)
+    )
+    (image Arduino_MEGA_Reference_Design:2X08
+      (pin Round[A]Pad_1524_um 16 8890 1270)
+      (pin Round[A]Pad_1524_um 15 8890 -1270)
+      (pin Round[A]Pad_1524_um 14 6350 1270)
+      (pin Round[A]Pad_1524_um 13 6350 -1270)
+      (pin Round[A]Pad_1524_um 12 3810 1270)
+      (pin Round[A]Pad_1524_um 11 3810 -1270)
+      (pin Round[A]Pad_1524_um 10 1270 1270)
+      (pin Round[A]Pad_1524_um 9 1270 -1270)
+      (pin Round[A]Pad_1524_um 8 -1270 1270)
+      (pin Round[A]Pad_1524_um 7 -1270 -1270)
+      (pin Round[A]Pad_1524_um 6 -3810 1270)
+      (pin Round[A]Pad_1524_um 5 -3810 -1270)
+      (pin Round[A]Pad_1524_um 4 -6350 1270)
+      (pin Round[A]Pad_1524_um 3 -6350 -1270)
+      (pin Round[A]Pad_1524_um 2 -8890 1270)
+      (pin Round[A]Pad_1524_um 1 -8890 -1270)
+    )
+    (image Arduino_MEGA_Reference_Design:SSOP28
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 28 -4225 3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 27 -3575 3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 26 -2925 3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 25 -2275 3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 24 -1625 3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 23 -975 3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 22 -325 3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 21 325 3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 20 975 3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 19 1625 3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 18 2275 3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 17 2925 3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 16 3575 3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 15 4225 3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 14 4225 -3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 13 3575 -3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 12 2925 -3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 11 2275 -3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 10 1625 -3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 9 975 -3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 8 325 -3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 7 -325 -3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 6 -975 -3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 5 -1625 -3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 4 -2275 -3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 3 -2925 -3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 2 -3575 -3625)
+      (pin RoundRect[T]Pad_381x1498.6_38.245_um 1 -4225 -3625)
+    )
+    (image Arduino_MEGA_Reference_Design:TQFP100
+      (pin Rect[T]Pad_350x1500_um 100 -6000 8000)
+      (pin Rect[T]Pad_350x1500_um 99 -5500 8000)
+      (pin Rect[T]Pad_350x1500_um 98 -5000 8000)
+      (pin Rect[T]Pad_350x1500_um 97 -4500 8000)
+      (pin Rect[T]Pad_350x1500_um 96 -4000 8000)
+      (pin Rect[T]Pad_350x1500_um 95 -3500 8000)
+      (pin Rect[T]Pad_350x1500_um 94 -3000 8000)
+      (pin Rect[T]Pad_350x1500_um 93 -2500 8000)
+      (pin Rect[T]Pad_350x1500_um 92 -2000 8000)
+      (pin Rect[T]Pad_350x1500_um 91 -1500 8000)
+      (pin Rect[T]Pad_350x1500_um 90 -1000 8000)
+      (pin Rect[T]Pad_350x1500_um 89 -500 8000)
+      (pin Rect[T]Pad_350x1500_um 88 0 8000)
+      (pin Rect[T]Pad_350x1500_um 87 500 8000)
+      (pin Rect[T]Pad_350x1500_um 86 1000 8000)
+      (pin Rect[T]Pad_350x1500_um 85 1500 8000)
+      (pin Rect[T]Pad_350x1500_um 84 2000 8000)
+      (pin Rect[T]Pad_350x1500_um 83 2500 8000)
+      (pin Rect[T]Pad_350x1500_um 82 3000 8000)
+      (pin Rect[T]Pad_350x1500_um 81 3500 8000)
+      (pin Rect[T]Pad_350x1500_um 80 4000 8000)
+      (pin Rect[T]Pad_350x1500_um 79 4500 8000)
+      (pin Rect[T]Pad_350x1500_um 78 5000 8000)
+      (pin Rect[T]Pad_350x1500_um 77 5500 8000)
+      (pin Rect[T]Pad_350x1500_um 76 6000 8000)
+      (pin Rect[T]Pad_1500x350_um 75 8000 6000)
+      (pin Rect[T]Pad_1500x350_um 74 8000 5500)
+      (pin Rect[T]Pad_1500x350_um 73 8000 5000)
+      (pin Rect[T]Pad_1500x350_um 72 8000 4500)
+      (pin Rect[T]Pad_1500x350_um 71 8000 4000)
+      (pin Rect[T]Pad_1500x350_um 70 8000 3500)
+      (pin Rect[T]Pad_1500x350_um 69 8000 3000)
+      (pin Rect[T]Pad_1500x350_um 68 8000 2500)
+      (pin Rect[T]Pad_1500x350_um 67 8000 2000)
+      (pin Rect[T]Pad_1500x350_um 66 8000 1500)
+      (pin Rect[T]Pad_1500x350_um 65 8000 1000)
+      (pin Rect[T]Pad_1500x350_um 64 8000 500)
+      (pin Rect[T]Pad_1500x350_um 63 8000 0)
+      (pin Rect[T]Pad_1500x350_um 62 8000 -500)
+      (pin Rect[T]Pad_1500x350_um 61 8000 -1000)
+      (pin Rect[T]Pad_1500x350_um 60 8000 -1500)
+      (pin Rect[T]Pad_1500x350_um 59 8000 -2000)
+      (pin Rect[T]Pad_1500x350_um 58 8000 -2500)
+      (pin Rect[T]Pad_1500x350_um 57 8000 -3000)
+      (pin Rect[T]Pad_1500x350_um 56 8000 -3500)
+      (pin Rect[T]Pad_1500x350_um 55 8000 -4000)
+      (pin Rect[T]Pad_1500x350_um 54 8000 -4500)
+      (pin Rect[T]Pad_1500x350_um 53 8000 -5000)
+      (pin Rect[T]Pad_1500x350_um 52 8000 -5500)
+      (pin Rect[T]Pad_1500x350_um 51 8000 -6000)
+      (pin Rect[T]Pad_350x1500_um 50 6000 -8000)
+      (pin Rect[T]Pad_350x1500_um 49 5500 -8000)
+      (pin Rect[T]Pad_350x1500_um 48 5000 -8000)
+      (pin Rect[T]Pad_350x1500_um 47 4500 -8000)
+      (pin Rect[T]Pad_350x1500_um 46 4000 -8000)
+      (pin Rect[T]Pad_350x1500_um 45 3500 -8000)
+      (pin Rect[T]Pad_350x1500_um 44 3000 -8000)
+      (pin Rect[T]Pad_350x1500_um 43 2500 -8000)
+      (pin Rect[T]Pad_350x1500_um 42 2000 -8000)
+      (pin Rect[T]Pad_350x1500_um 41 1500 -8000)
+      (pin Rect[T]Pad_350x1500_um 40 1000 -8000)
+      (pin Rect[T]Pad_350x1500_um 39 500 -8000)
+      (pin Rect[T]Pad_350x1500_um 38 0 -8000)
+      (pin Rect[T]Pad_350x1500_um 37 -500 -8000)
+      (pin Rect[T]Pad_350x1500_um 36 -1000 -8000)
+      (pin Rect[T]Pad_350x1500_um 35 -1500 -8000)
+      (pin Rect[T]Pad_350x1500_um 34 -2000 -8000)
+      (pin Rect[T]Pad_350x1500_um 33 -2500 -8000)
+      (pin Rect[T]Pad_350x1500_um 32 -3000 -8000)
+      (pin Rect[T]Pad_350x1500_um 31 -3500 -8000)
+      (pin Rect[T]Pad_350x1500_um 30 -4000 -8000)
+      (pin Rect[T]Pad_350x1500_um 29 -4500 -8000)
+      (pin Rect[T]Pad_350x1500_um 28 -5000 -8000)
+      (pin Rect[T]Pad_350x1500_um 27 -5500 -8000)
+      (pin Rect[T]Pad_350x1500_um 26 -6000 -8000)
+      (pin Rect[T]Pad_1500x350_um 25 -8000 -6000)
+      (pin Rect[T]Pad_1500x350_um 24 -8000 -5500)
+      (pin Rect[T]Pad_1500x350_um 23 -8000 -5000)
+      (pin Rect[T]Pad_1500x350_um 22 -8000 -4500)
+      (pin Rect[T]Pad_1500x350_um 21 -8000 -4000)
+      (pin Rect[T]Pad_1500x350_um 20 -8000 -3500)
+      (pin Rect[T]Pad_1500x350_um 19 -8000 -3000)
+      (pin Rect[T]Pad_1500x350_um 18 -8000 -2500)
+      (pin Rect[T]Pad_1500x350_um 17 -8000 -2000)
+      (pin Rect[T]Pad_1500x350_um 16 -8000 -1500)
+      (pin Rect[T]Pad_1500x350_um 15 -8000 -1000)
+      (pin Rect[T]Pad_1500x350_um 14 -8000 -500)
+      (pin Rect[T]Pad_1500x350_um 13 -8000 0)
+      (pin Rect[T]Pad_1500x350_um 12 -8000 500)
+      (pin Rect[T]Pad_1500x350_um 11 -8000 1000)
+      (pin Rect[T]Pad_1500x350_um 10 -8000 1500)
+      (pin Rect[T]Pad_1500x350_um 9 -8000 2000)
+      (pin Rect[T]Pad_1500x350_um 8 -8000 2500)
+      (pin Rect[T]Pad_1500x350_um 7 -8000 3000)
+      (pin Rect[T]Pad_1500x350_um 6 -8000 3500)
+      (pin Rect[T]Pad_1500x350_um 5 -8000 4000)
+      (pin Rect[T]Pad_1500x350_um 4 -8000 4500)
+      (pin Rect[T]Pad_1500x350_um 3 -8000 5000)
+      (pin Rect[T]Pad_1500x350_um 2 -8000 5500)
+      (pin Rect[T]Pad_1500x350_um 1 -8000 6000)
+    )
+    (image Arduino_MEGA_Reference_Design:SJ
+      (pin Rect[T]Pad_1168.4x1600.2_um 2 762 0)
+      (pin Rect[T]Pad_1168.4x1600.2_um 1 -762 0)
+    )
+    (padstack Round[A]Pad_1320.8_um
+      (shape (circle Top 1320.8))
+      (shape (circle Bottom 1320.8))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1458_um
+      (shape (circle Top 1458))
+      (shape (circle Bottom 1458))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1524_um
+      (shape (circle Top 1524))
+      (shape (circle Bottom 1524))
+      (attach off)
+    )
+    (padstack Round[A]Pad_3216_um
+      (shape (circle Top 3216))
+      (shape (circle Bottom 3216))
+      (attach off)
+    )
+    (padstack Round[A]Pad_4826_um
+      (shape (circle Top 4826))
+      (shape (circle Bottom 4826))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_2844.8x1422.4_um
+      (shape (path Top 1422.4  -711.2 0  711.2 0))
+      (shape (path Bottom 1422.4  -711.2 0  711.2 0))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_3048x1524_um
+      (shape (path Top 1524  -762 0  762 0))
+      (shape (path Bottom 1524  -762 0  762 0))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_1300x1500_652.473_um
+      (shape (polygon Top 0  113.302 742.56  223.16 713.124  326.237 665.058  419.403 599.823
+            499.824 519.402  565.059 426.237  613.125 323.159  642.561 213.301
+            652.474 100  652.474 -100  642.561 -213.301  613.125 -323.159
+            565.059 -426.236  499.824 -519.402  419.403 -599.823  326.238 -665.058
+            223.16 -713.124  113.302 -742.56  0.001 -752.473  -0.001 -752.473
+            -113.302 -742.56  -223.16 -713.124  -326.237 -665.058  -419.403 -599.823
+            -499.824 -519.402  -565.059 -426.237  -613.125 -323.159  -642.561 -213.301
+            -652.474 -100  -652.474 100  -642.561 213.301  -613.125 323.159
+            -565.059 426.236  -499.824 519.402  -419.403 599.823  -326.238 665.058
+            -223.16 713.124  -113.302 742.56  -0.001 752.473  0.001 752.473
+            113.302 742.56))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_381x1498.6_38.245_um
+      (shape (polygon Top 0  159.041 748.864  165.481 747.139  171.522 744.321  176.983 740.497
+            181.697 735.783  185.521 730.323  188.339 724.281  190.064 717.841
+            190.645 711.2  190.645 -711.2  190.064 -717.841  188.339 -724.281
+            185.521 -730.323  181.697 -735.783  176.983 -740.497  171.523 -744.321
+            165.481 -747.139  159.041 -748.864  152.4 -749.445  -152.4 -749.445
+            -159.041 -748.864  -165.481 -747.139  -171.522 -744.321  -176.983 -740.497
+            -181.697 -735.783  -185.521 -730.323  -188.339 -724.281  -190.064 -717.841
+            -190.645 -711.2  -190.645 711.2  -190.064 717.841  -188.339 724.281
+            -185.521 730.323  -181.697 735.783  -176.983 740.497  -171.523 744.321
+            -165.481 747.139  -159.041 748.864  -152.4 749.445  152.4 749.445
+            159.041 748.864))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_1270x1270_573.675_um
+      (shape (polygon Top 0  163.118 628.46  259.708 602.578  350.337 560.317  432.251 502.961
+            502.961 432.251  560.317 350.338  602.578 259.708  628.46 163.118
+            637.175 63.5  637.175 -63.5  628.46 -163.118  602.578 -259.708
+            560.317 -350.337  502.961 -432.251  432.251 -502.961  350.338 -560.317
+            259.708 -602.578  163.118 -628.46  63.5 -637.175  -63.5 -637.175
+            -163.118 -628.46  -259.708 -602.578  -350.337 -560.317  -432.251 -502.961
+            -502.961 -432.251  -560.317 -350.338  -602.578 -259.708  -628.46 -163.118
+            -637.175 -63.5  -637.175 63.5  -628.46 163.118  -602.578 259.708
+            -560.317 350.337  -502.961 432.251  -432.251 502.961  -350.338 560.317
+            -259.708 602.578  -163.118 628.46  -63.5 637.175  63.5 637.175
+            163.118 628.46))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2400x2400_um
+      (shape (rect Top -1200 -1200 1200 1200))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2400x2800_um
+      (shape (rect Top -1200 -1400 1200 1400))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_350x1500_um
+      (shape (rect Top -175 -750 175 750))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_3600x2200_um
+      (shape (rect Top -1800 -1100 1800 1100))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_600x2200_um
+      (shape (rect Top -300 -1100 300 1100))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1168.4x1600.2_um
+      (shape (rect Top -584.2 -800.1 584.2 800.1))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1219.2x2235.2_um
+      (shape (rect Top -609.6 -1117.6 609.6 1117.6))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1500x350_um
+      (shape (rect Top -750 -175 750 175))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1900x3400_um
+      (shape (rect Top -950 -1700 950 1700))
+      (attach off)
+    )
+    (padstack "Via[0-1]_914.4:400_um"
+      (shape (circle Top 914.4))
+      (shape (circle Bottom 914.4))
+      (attach off)
+    )
+  )
+  (network
+    (net +5V
+      (pins U4-3 U5-3 U7-2 U9-1 U10-1 U16-4 U16-2 U19-+ U20-1 U23-1 U25-1 U26-1 U27-1
+        U28-1 U29-2 U31-1 U32-2 U39-2 U47-2 U50-8 U53-20 U53-19 U53-4 U56-100 U56-80
+        U56-61 U56-31 U56-10)
+    )
+    (net GND
+      (pins U54-P$2 U54-P$1 U54-4 U55-3 U55-1 U1-1 U2-1 U5-5 U5-4 U6-2 U6-1 U7-6 U15-7
+        U16-1 U18-- U19-- U20-2 U21-1 U22-1 U23-2 U24-P$2 U28-2 U29-1 U30-1 U31-2
+        U33-P$2 U35-2 U36-2 U43-2 U44-1 U45-1 U46-2 U50-4 U53-26 U53-25 U53-21 U53-18
+        U53-7 U56-99 U56-81 U56-62 U56-32 U56-11)
+    )
+    (net N$6
+      (pins U3-1 U21-2 U56-34)
+    )
+    (net N$7
+      (pins U3-2 U22-2 U56-33)
+    )
+    (net AREF
+      (pins U15-8 U35-1 U56-98)
+    )
+    (net RESET
+      (pins U5-1 U6-4 U6-3 U7-5 U46-1 U47-1 U48-2 U56-30)
+    )
+    (net VIN
+      (pins U5-6 U16-3 U17-C U18-+ U42-2 U43-1)
+    )
+    (net N$3
+      (pins U24-P$1 U25-2)
+    )
+    (net PWRIN
+      (pins U55-2 U17-A)
+    )
+    (net M8RXD
+      (pins U40-P$1 U53-1)
+    )
+    (net M8TXD
+      (pins U41-P$1 U53-5)
+    )
+    (net ADC0
+      (pins U11-1 U56-97)
+    )
+    (net ADC2
+      (pins U11-3 U56-95)
+    )
+    (net ADC1
+      (pins U11-2 U56-96)
+    )
+    (net ADC3
+      (pins U11-4 U56-94)
+    )
+    (net ADC4
+      (pins U11-5 U56-93)
+    )
+    (net ADC5
+      (pins U11-6 U56-92)
+    )
+    (net ADC6
+      (pins U11-7 U56-91)
+    )
+    (net ADC7
+      (pins U11-8 U56-90)
+    )
+    (net +3V3
+      (pins U5-2 U30-2 U50-2 U53-17)
+    )
+    (net SDA
+      (pins U13-2 U27-2 U56-44)
+    )
+    (net SCL
+      (pins U13-1 U26-2 U56-43)
+    )
+    (net ADC9
+      (pins U12-2 U56-88)
+    )
+    (net ADC8
+      (pins U12-1 U56-89)
+    )
+    (net ADC10
+      (pins U12-3 U56-87)
+    )
+    (net ADC11
+      (pins U12-4 U56-86)
+    )
+    (net ADC12
+      (pins U12-5 U56-85)
+    )
+    (net ADC13
+      (pins U12-6 U56-84)
+    )
+    (net ADC14
+      (pins U12-7 U56-83)
+    )
+    (net ADC15
+      (pins U12-8 U56-82)
+    )
+    (net PB3
+      (pins U7-1 U51-4 U56-22)
+    )
+    (net PB2
+      (pins U7-4 U51-3 U56-21)
+    )
+    (net PB1
+      (pins U7-3 U51-2 U56-20)
+    )
+    (net PB5
+      (pins U15-4 U56-24)
+    )
+    (net PB4
+      (pins U15-3 U56-23)
+    )
+    (net PE5
+      (pins U14-4 U56-7)
+    )
+    (net PE4
+      (pins U14-3 U56-6)
+    )
+    (net PE3
+      (pins U14-6 U56-5)
+    )
+    (net PE1
+      (pins U14-2 U41-P$2 U56-3)
+    )
+    (net PE0
+      (pins U14-1 U40-P$2 U56-2)
+    )
+    (net N$15
+      (pins U38-P$2 U53-23)
+    )
+    (net N$53
+      (pins U37-P$2 U53-22)
+    )
+    (net N$54
+      (pins U32-1 U38-P$1)
+    )
+    (net N$55
+      (pins U37-P$1 U39-1)
+    )
+    (net "D-"
+      (pins U54-2 U53-16)
+    )
+    (net D+
+      (pins U54-3 U53-15)
+    )
+    (net N$60
+      (pins U54-1 U49-2)
+    )
+    (net DTR
+      (pins U48-1 U53-2 U57-2 U57-1)
+    )
+    (net USBVCC
+      (pins U4-2 U36-1 U49-1)
+    )
+    (net N$2
+      (pins U33-P$1 U34-2)
+    )
+    (net N$4
+      (pins U50-5 U50-1)
+    )
+    (net GATE_CMD
+      (pins U4-1 U50-6 U50-7)
+    )
+    (net CMP
+      (pins U42-1 U44-2 U45-2 U50-3)
+    )
+    (net PB6
+      (pins U15-5 U56-25)
+    )
+    (net PH3
+      (pins U14-7 U56-15)
+    )
+    (net PH4
+      (pins U14-8 U56-16)
+    )
+    (net PH5
+      (pins U15-1 U56-17)
+    )
+    (net PH6
+      (pins U15-2 U56-18)
+    )
+    (net PG5
+      (pins U14-5 U56-1)
+    )
+    (net RXD1
+      (pins U13-3 U56-45)
+    )
+    (net TXD1
+      (pins U13-4 U56-46)
+    )
+    (net RXD2
+      (pins U13-5 U56-12)
+    )
+    (net RXD3
+      (pins U13-7 U56-63)
+    )
+    (net TXD2
+      (pins U13-6 U56-13)
+    )
+    (net TXD3
+      (pins U13-8 U56-64)
+    )
+    (net PC0
+      (pins U52-1 U56-53)
+    )
+    (net PC1
+      (pins U52-2 U56-54)
+    )
+    (net PC2
+      (pins U52-3 U56-55)
+    )
+    (net PC3
+      (pins U52-4 U56-56)
+    )
+    (net PC4
+      (pins U52-5 U56-57)
+    )
+    (net PC5
+      (pins U52-6 U56-58)
+    )
+    (net PC6
+      (pins U52-7 U56-59)
+    )
+    (net PC7
+      (pins U52-8 U56-60)
+    )
+    (net PB0
+      (pins U51-1 U56-19)
+    )
+    (net PG0
+      (pins U51-13 U56-51)
+    )
+    (net PG1
+      (pins U51-14 U56-52)
+    )
+    (net PG2
+      (pins U51-15 U56-70)
+    )
+    (net PD7
+      (pins U51-16 U56-50)
+    )
+    (net PA0
+      (pins U52-16 U56-78)
+    )
+    (net PA1
+      (pins U52-15 U56-77)
+    )
+    (net PA2
+      (pins U52-14 U56-76)
+    )
+    (net PA3
+      (pins U52-13 U56-75)
+    )
+    (net PA4
+      (pins U52-12 U56-74)
+    )
+    (net PA5
+      (pins U52-11 U56-73)
+    )
+    (net PA6
+      (pins U52-10 U56-72)
+    )
+    (net PA7
+      (pins U52-9 U56-71)
+    )
+    (net PL0
+      (pins U51-5 U56-35)
+    )
+    (net PL1
+      (pins U51-6 U56-36)
+    )
+    (net PL2
+      (pins U51-7 U56-37)
+    )
+    (net PL3
+      (pins U51-8 U56-38)
+    )
+    (net PL4
+      (pins U51-9 U56-39)
+    )
+    (net PL5
+      (pins U51-10 U56-40)
+    )
+    (net PL6
+      (pins U51-11 U56-41)
+    )
+    (net PL7
+      (pins U51-12 U56-42)
+    )
+    (net PB7
+      (pins U15-6 U34-1 U56-26)
+    )
+    (net CTS
+      (pins U8-1 U53-11)
+    )
+    (net DSR
+      (pins U8-2 U53-9)
+    )
+    (net DCD
+      (pins U8-3 U53-10)
+    )
+    (net RI
+      (pins U8-4 U53-6)
+    )
+    (class kicad_default ""
+      (circuit
+        (use_via Via[0-1]_914.4:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 63.1)
+      )
+    )
+    (class Power +3V3 +5V PWRIN USBVCC
+      (circuit
+        (use_via Via[0-1]_914.4:400_um)
+      )
+      (rule
+        (width 304.8)
+        (clearance 63.1)
+      )
+    )
+    (class Signal ADC0 ADC1 ADC10 ADC11 ADC12 ADC13 ADC14 ADC15 ADC2 ADC3
+      ADC4 ADC5 ADC6 ADC7 ADC8 ADC9 AREF CMP CTS D+ "D-" DCD DSR DTR GATE_CMD
+      GND M8RXD M8TXD N$15 N$2 N$3 N$4 N$53 N$54 N$55 N$6 N$60 N$7 PA0 PA1
+      PA2 PA3 PA4 PA5 PA6 PA7 PB0 PB1 PB2 PB3 PB4 PB5 PB6 PB7 PC0 PC1 PC2
+      PC3 PC4 PC5 PC6 PC7 PD7 PE0 PE1 PE3 PE4 PE5 PG0 PG1 PG2 PG5 PH3 PH4
+      PH5 PH6 PL0 PL1 PL2 PL3 PL4 PL5 PL6 PL7 RESET RI RXD1 RXD2 RXD3 SCL
+      SDA TXD1 TXD2 TXD3
+      (circuit
+        (use_via Via[0-1]_914.4:400_um)
+      )
+      (rule
+        (width 203.2)
+        (clearance 63.1)
+      )
+    )
+    (class VIN VIN
+      (circuit
+        (use_via Via[0-1]_914.4:400_um)
+      )
+      (rule
+        (width 1200)
+        (clearance 63.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

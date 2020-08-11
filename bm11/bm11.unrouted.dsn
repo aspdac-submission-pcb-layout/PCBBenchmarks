@@ -1,0 +1,692 @@
+(pcb /Users/devon/TU1/PCBBenchmarks/bm11/bm11.unrouted.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(5.1.4-0-10_14)")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer Top
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer Bottom
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  171667 -93592.1  171969 -93647.4  172262 -93738.7  172541 -93864.5
+            172804 -94023.2  173045 -94212.4  173262 -94429.3  173451 -94670.7
+            173610 -94933.2  173736 -95212.9  173827 -95505.7  173883 -95807.4
+            173901 -96113.6  173901 -113894  173883 -114200  173827 -114501
+            173736 -114794  173610 -115074  173451 -115336  173262 -115578
+            173045 -115795  172804 -115984  172541 -116143  172262 -116269
+            171969 -116360  171667 -116415  171361 -116434  125641 -116434
+            125335 -116415  125033 -116360  124740 -116269  124461 -116143
+            124198 -115984  123957 -115795  123740 -115578  123551 -115336
+            123392 -115074  123266 -114794  123175 -114501  123120 -114200
+            123101 -113894  123101 -107290  123609 -106782  123609 -103226
+            123101 -102718  123101 -96113.6  123120 -95807.4  123175 -95505.7
+            123266 -95212.9  123392 -94933.2  123551 -94670.7  123740 -94429.3
+            123957 -94212.4  124198 -94023.2  124461 -93864.5  124740 -93738.7
+            125033 -93647.4  125335 -93592.1  125641 -93573.6  171361 -93573.6
+            171667 -93592.1)
+    )
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component MS1
+      (place MS1 148450 -115270 front 0)
+    )
+    (component MS2
+      (place MS2 153580 -94650 front 0)
+    )
+    (component "Adafruit nRF52 Bluefruit Feather:JSTPH2"
+      (place U39 133858 -98602.8 front 0)
+    )
+    (component "Adafruit nRF52 Bluefruit Feather:4UCONN_20329_V2"
+      (place U10 125527 -105004 front 270)
+    )
+    (component "Adafruit nRF52 Bluefruit Feather:0603-NO"
+      (place U1 144843 -108344 front 270)
+      (place U2 146088 -110719 front 270)
+      (place U3 144678 -99314 front 0)
+      (place U4 143421 -97955.1 front 180)
+      (place U5 139840 -97751.9 front 0)
+      (place U6 140373 -99110.8 front 0)
+      (place U7 136487 -111544 front 90)
+      (place U21 144437 -104064 front 0)
+      (place U22 153048 -100559 front 90)
+      (place U23 153657 -98196.4 front 180)
+      (place U24 146494 -97790 front 180)
+      (place U25 128816 -98018.6 front 90)
+      (place U26 130594 -102718 front 0)
+      (place U27 129095 -112332 front 0)
+      (place U35 163614 -98031.3 front 0)
+      (place U36 167932 -98399.6 front 180)
+    )
+    (component "Adafruit nRF52 Bluefruit Feather:0805-NO"
+      (place U8 134976 -111582 front 90)
+      (place U9 138087 -111671 front 90)
+      (place U17 160439 -98145.6 front 180)
+      (place U18 156947 -97891.6 front 180)
+      (place U19 144869 -101105 front 0)
+      (place U20 137554 -103619 front 90)
+    )
+    (component "Adafruit nRF52 Bluefruit Feather:SOLDERJUMPER_CLOSEDWIRE"
+      (place U11 142151 -108179 back 90)
+    )
+    (component "Adafruit nRF52 Bluefruit Feather:PAD-1.5X2.0"
+      (place TP2 167830 -112420 back 90 (PN FRST))
+    )
+    (component "Adafruit nRF52 Bluefruit Feather:XTAL3215"
+      (place U12 154851 -100686 front 90)
+    )
+    (component "Adafruit nRF52 Bluefruit Feather:SOD-323"
+      (place U13 150076 -97790 front 180)
+    )
+    (component "Adafruit nRF52 Bluefruit Feather:SOD-123"
+      (place U14 132880 -104496 front 180)
+    )
+    (component "Adafruit nRF52 Bluefruit Feather:CHIPLED_0805_NOOUTLINE"
+      (place U15 125514 -110846 front 270)
+      (place U16 125387 -99034.6 front 90)
+      (place U37 171361 -98475.8 front 270)
+    )
+    (component "Adafruit nRF52 Bluefruit Feather:_0603MP"
+      (place U28 154470 -112370 front 180)
+      (place U29 151549 -112497 front 180)
+    )
+    (component "Adafruit nRF52 Bluefruit Feather:SOT23-R"
+      (place U30 136119 -106274 front 0)
+    )
+    (component "Adafruit nRF52 Bluefruit Feather:BTN_KMR2_4.6X2.8"
+      (place U31 166916 -112497 front 0)
+      (place U32 132118 -109957 front 90)
+    )
+    (component "Adafruit nRF52 Bluefruit Feather:SOT23-5"
+      (place U33 140881 -105016 front 270)
+      (place U34 140881 -101575 front 90)
+    )
+    (component "Adafruit nRF52 Bluefruit Feather:QFN24_4MM_SMSC"
+      (place U38 141643 -110490 front 270)
+    )
+    (component "Adafruit nRF52 Bluefruit Feather:2X05_1.27MM_BOX_POSTS"
+      (place U40 149517 -105258 front 270)
+    )
+    (component "Adafruit nRF52 Bluefruit Feather:BLE_MODULE_RAYTAC_MDBT42"
+      (place U41 165011 -104623 front 270)
+    )
+    (component "Adafruit nRF52 Bluefruit Feather:1X01_2MM"
+      (place U43 155169 -110846 front 0)
+      (place U44 153137 -110846 front 0)
+    )
+  )
+  (library
+    (image MS1
+      (pin Round[A]Pad_1778_um 1 -19026 94)
+      (pin Round[A]Pad_1778_um 2 -16486 94)
+      (pin Round[A]Pad_1778_um 3 -13946 94)
+      (pin Round[A]Pad_1778_um 4 -11406 94)
+      (pin Round[A]Pad_1778_um 16 19074 94)
+      (pin Round[A]Pad_1778_um 15 16534 94)
+      (pin Round[A]Pad_1778_um 14 13994 94)
+      (pin Round[A]Pad_1778_um 13 11454 94)
+      (pin Round[A]Pad_1778_um 12 8914 94)
+      (pin Round[A]Pad_1778_um 11 6374 94)
+      (pin Round[A]Pad_1778_um 10 3834 94)
+      (pin Round[A]Pad_1778_um 9 1294 94)
+      (pin Round[A]Pad_1778_um 8 -1246 94)
+      (pin Round[A]Pad_1778_um 7 -3786 94)
+      (pin Round[A]Pad_1778_um 6 -6326 94)
+      (pin Round[A]Pad_1778_um 5 -8866 94)
+    )
+    (image MS2
+      (pin Round[A]Pad_1778_um 17 13974 -36)
+      (pin Round[A]Pad_1778_um 18 11434 -36)
+      (pin Round[A]Pad_1778_um 19 8894 -36)
+      (pin Round[A]Pad_1778_um 20 6354 -36)
+      (pin Round[A]Pad_1778_um 21 3814 -36)
+      (pin Round[A]Pad_1778_um 22 1274 -36)
+      (pin Round[A]Pad_1778_um 23 -1266 -36)
+      (pin Round[A]Pad_1778_um 24 -3806 -36)
+      (pin Round[A]Pad_1778_um 25 -6346 -36)
+      (pin Round[A]Pad_1778_um 26 -8886 -36)
+      (pin Round[A]Pad_1778_um 27 -11426 -36)
+      (pin Round[A]Pad_1778_um 28 -13966 -36)
+    )
+    (image "Adafruit nRF52 Bluefruit Feather:JSTPH2"
+      (pin Rect[T]Pad_3400x1600_um (rotate 90) NC2 3400 3024)
+      (pin Rect[T]Pad_3400x1600_um (rotate 90) NC1 -3400 3024)
+      (pin Rect[T]Pad_1000x4600_um 2 1000 -2176)
+      (pin Rect[T]Pad_1000x4600_um 1 -1000 -2176)
+    )
+    (image "Adafruit nRF52 Bluefruit Feather:4UCONN_20329_V2"
+      (pin Rect[T]Pad_2000x1000_um (rotate 90) BASE@2 750 32)
+      (pin Rect[T]Pad_2000x1000_um (rotate 90) BASE@1 -750 32)
+      (pin Rect[T]Pad_400x1350_um GND 1300 2807)
+      (pin Rect[T]Pad_400x1350_um ID 650 2807)
+      (pin Rect[T]Pad_400x1350_um D+ 0 2807)
+      (pin Rect[T]Pad_400x1350_um "D-" -650 2807)
+      (pin Rect[T]Pad_400x1350_um VBUS -1300 2807)
+      (pin Round[A]Pad_1143_um SPRT@2 3300 2932)
+      (pin Round[A]Pad_1143_um (rotate 180) SPRT@1 -3300 2932)
+      (pin Rect[A]Pad_2413x2413_um (rotate 90) SPRT@3 -3600 132)
+      (pin Rect[A]Pad_2413x2413_um (rotate 90) SPRT@4 3600 132)
+    )
+    (image "Adafruit nRF52 Bluefruit Feather:0603-NO"
+      (pin Rect[T]Pad_1075x1000_um 2 850 0)
+      (pin Rect[T]Pad_1075x1000_um 1 -850 0)
+    )
+    (image "Adafruit nRF52 Bluefruit Feather:0805-NO"
+      (pin Rect[T]Pad_1240x1500_um 2 950 0)
+      (pin Rect[T]Pad_1240x1500_um 1 -950 0)
+    )
+    (image "Adafruit nRF52 Bluefruit Feather:SOLDERJUMPER_CLOSEDWIRE"
+      (pin Rect[T]Pad_1168.4x1600.2_um 2 762 0)
+      (pin Rect[T]Pad_1168.4x1600.2_um 1 -762 0)
+    )
+    (image "Adafruit nRF52 Bluefruit Feather:PAD-1.5X2.0"
+      (outline (path signal 127  -950 -1200  -950 1200))
+      (outline (path signal 127  950 -1200  -950 -1200))
+      (outline (path signal 127  950 1200  950 -1200))
+      (outline (path signal 127  -950 1200  950 1200))
+      (pin Rect[T]Pad_1500x2000_um P$1 0 0)
+    )
+    (image "Adafruit nRF52 Bluefruit Feather:XTAL3215"
+      (pin Rect[T]Pad_1100x1900_um (rotate 180) P$2 -1200 0)
+      (pin Rect[T]Pad_1100x1900_um P$1 1200 0)
+    )
+    (image "Adafruit nRF52 Bluefruit Feather:SOD-323"
+      (pin Rect[T]Pad_1350x800_um A 1270 0)
+      (pin Rect[T]Pad_1350x800_um C -1270 0)
+    )
+    (image "Adafruit nRF52 Bluefruit Feather:SOD-123"
+      (pin Rect[T]Pad_1400x1400_um (rotate 90) A 1850 0)
+      (pin Rect[T]Pad_1400x1400_um (rotate 90) C -1850 0)
+    )
+    (image "Adafruit nRF52 Bluefruit Feather:CHIPLED_0805_NOOUTLINE"
+      (pin Rect[T]Pad_1200x1200_um A 0 -1050)
+      (pin Rect[T]Pad_1200x1200_um C 0 1050)
+    )
+    (image "Adafruit nRF52 Bluefruit Feather:_0603MP"
+      (pin Rect[T]Pad_800x800_um 2 762 0)
+      (pin Rect[T]Pad_800x800_um 1 -762 0)
+    )
+    (image "Adafruit nRF52 Bluefruit Feather:SOT23-R"
+      (pin Rect[T]Pad_635x1016_um 1 -950 -1000)
+      (pin Rect[T]Pad_635x1016_um 2 950 -1000)
+      (pin Rect[T]Pad_635x1016_um 3 0 1000)
+    )
+    (image "Adafruit nRF52 Bluefruit Feather:BTN_KMR2_4.6X2.8"
+      (pin Rect[T]Pad_900x900_um A' -2050 800)
+      (pin Rect[T]Pad_900x900_um B' -2050 -800)
+      (pin Rect[T]Pad_900x900_um B 2050 -800)
+      (pin Rect[T]Pad_900x900_um A 2050 800)
+    )
+    (image "Adafruit nRF52 Bluefruit Feather:SOT23-5"
+      (pin Rect[T]Pad_550x1200_um 5 -950 1300.1)
+      (pin Rect[T]Pad_550x1200_um 4 950 1300.1)
+      (pin Rect[T]Pad_550x1200_um 3 950 -1300.1)
+      (pin Rect[T]Pad_550x1200_um 2 0 -1300.1)
+      (pin Rect[T]Pad_550x1200_um 1 -950 -1300.1)
+    )
+    (image "Adafruit nRF52 Bluefruit Feather:QFN24_4MM_SMSC"
+      (pin Rect[T]Pad_2500x2500_um THERM 0 0)
+      (pin RoundRect[T]Pad_800x280_70.266_um (rotate 270) 24 -1250 2000)
+      (pin RoundRect[T]Pad_800x280_70.266_um (rotate 270) 23 -750 2000)
+      (pin RoundRect[T]Pad_800x280_70.266_um (rotate 270) 22 -250 2000)
+      (pin RoundRect[T]Pad_800x280_70.266_um (rotate 270) 21 250 2000)
+      (pin RoundRect[T]Pad_800x280_70.266_um (rotate 270) 20 750 2000)
+      (pin RoundRect[T]Pad_800x280_70.266_um (rotate 270) 19 1250 2000)
+      (pin RoundRect[T]Pad_800x280_70.266_um 18 2000 1250)
+      (pin RoundRect[T]Pad_800x280_70.266_um 17 2000 750)
+      (pin RoundRect[T]Pad_800x280_70.266_um 16 2000 250)
+      (pin RoundRect[T]Pad_800x280_70.266_um 15 2000 -250)
+      (pin RoundRect[T]Pad_800x280_70.266_um 14 2000 -750)
+      (pin RoundRect[T]Pad_800x280_70.266_um 13 2000 -1250)
+      (pin RoundRect[T]Pad_800x280_70.266_um (rotate 90) 12 1250 -2000)
+      (pin RoundRect[T]Pad_800x280_70.266_um (rotate 90) 11 750 -2000)
+      (pin RoundRect[T]Pad_800x280_70.266_um (rotate 90) 10 250 -2000)
+      (pin RoundRect[T]Pad_800x280_70.266_um (rotate 90) 9 -250 -2000)
+      (pin RoundRect[T]Pad_800x280_70.266_um (rotate 90) 8 -750 -2000)
+      (pin RoundRect[T]Pad_800x280_70.266_um (rotate 90) 7 -1250 -2000)
+      (pin RoundRect[T]Pad_800x280_70.266_um (rotate 180) 6 -2000 -1250)
+      (pin RoundRect[T]Pad_800x280_70.266_um (rotate 180) 5 -2000 -750)
+      (pin RoundRect[T]Pad_800x280_70.266_um (rotate 180) 4 -2000 -250)
+      (pin RoundRect[T]Pad_800x280_70.266_um (rotate 180) 3 -2000 250)
+      (pin RoundRect[T]Pad_800x280_70.266_um (rotate 180) 2 -2000 750)
+      (pin RoundRect[T]Pad_800x280_70.266_um (rotate 180) 1 -2000 1250)
+    )
+    (image "Adafruit nRF52 Bluefruit Feather:2X05_1.27MM_BOX_POSTS"
+      (pin Rect[T]Pad_760x2600_um 9 2540 -2150)
+      (pin Rect[T]Pad_760x2600_um 7 1270 -2150)
+      (pin Rect[T]Pad_760x2600_um 5 0 -2150)
+      (pin Rect[T]Pad_760x2600_um 3 -1270 -2150)
+      (pin Rect[T]Pad_760x2600_um 1 -2540 -2150)
+      (pin Rect[T]Pad_760x2600_um 10 2540 2150)
+      (pin Rect[T]Pad_760x2600_um 8 1270 2150)
+      (pin Rect[T]Pad_760x2600_um 6 0 2150)
+      (pin Rect[T]Pad_760x2600_um 4 -1270 2150)
+      (pin Rect[T]Pad_760x2600_um 2 -2540 2150)
+      (keepout "" (circle Top 1000 1905 0))
+      (keepout "" (circle Bottom 1000 1905 0))
+      (keepout "" (circle Top 1000 -1905 0))
+      (keepout "" (circle Bottom 1000 -1905 0))
+    )
+    (image "Adafruit nRF52 Bluefruit Feather:BLE_MODULE_RAYTAC_MDBT42"
+      (pin Rect[T]Pad_1200x500_um 41 2900 1850)
+      (pin Rect[T]Pad_1200x500_um 40 2900 3250)
+      (pin Rect[T]Pad_1600x900_um 39 4600 3800)
+      (pin Rect[T]Pad_1600x480_um 38 4600 2900)
+      (pin Rect[T]Pad_1600x480_um 37 4600 2200)
+      (pin Rect[T]Pad_1600x480_um 36 4600 1500)
+      (pin Rect[T]Pad_1600x480_um 35 4600 800)
+      (pin Rect[T]Pad_1600x480_um 34 4600 100)
+      (pin Rect[T]Pad_1600x480_um 33 4600 -600)
+      (pin Rect[T]Pad_1600x480_um 32 4600 -1300)
+      (pin Rect[T]Pad_1600x480_um 31 4600 -2000)
+      (pin Rect[T]Pad_1600x480_um 30 4600 -2700)
+      (pin Rect[T]Pad_1600x480_um 29 4600 -3400)
+      (pin Rect[T]Pad_1600x480_um 28 4600 -4100)
+      (pin Rect[T]Pad_1600x480_um 27 4600 -4800)
+      (pin Rect[T]Pad_1600x480_um 26 4600 -5500)
+      (pin Rect[T]Pad_1600x480_um 25 4600 -6200)
+      (pin Rect[T]Pad_1600x480_um (rotate 90) 24 4200 -7650)
+      (pin Rect[T]Pad_1600x480_um (rotate 90) 23 3500 -7650)
+      (pin Rect[T]Pad_1600x480_um (rotate 90) 22 2800 -7650)
+      (pin Rect[T]Pad_1600x480_um (rotate 90) 21 2100 -7650)
+      (pin Rect[T]Pad_1600x480_um (rotate 90) 20 1400 -7650)
+      (pin Rect[T]Pad_1600x480_um (rotate 90) 19 700 -7650)
+      (pin Rect[T]Pad_1600x480_um (rotate 90) 18 0 -7650)
+      (pin Rect[T]Pad_1600x480_um (rotate 90) 17 -700 -7650)
+      (pin Rect[T]Pad_1600x480_um (rotate 90) 16 -1400 -7650)
+      (pin Rect[T]Pad_1600x480_um (rotate 90) 15 -2100 -7650)
+      (pin Rect[T]Pad_1600x480_um (rotate 90) 14 -2800 -7650)
+      (pin Rect[T]Pad_1600x480_um (rotate 90) 13 -3500 -7650)
+      (pin Rect[T]Pad_1600x480_um (rotate 90) 12 -4200 -7650)
+      (pin Rect[T]Pad_1600x480_um 11 -4600 -5500)
+      (pin Rect[T]Pad_1600x480_um 10 -4600 -4800)
+      (pin Rect[T]Pad_1600x480_um 9 -4600 -4100)
+      (pin Rect[T]Pad_1600x480_um 8 -4600 -3400)
+      (pin Rect[T]Pad_1600x480_um 7 -4600 -2700)
+      (pin Rect[T]Pad_1600x480_um 6 -4600 -2000)
+      (pin Rect[T]Pad_1600x480_um 5 -4600 -1300)
+      (pin Rect[T]Pad_1600x480_um 4 -4600 -600)
+      (pin Rect[T]Pad_1600x480_um 3 -4600 100)
+      (pin Rect[T]Pad_1600x480_um 2 -4600 800)
+      (pin Rect[T]Pad_1600x900_um 1 -4600 3800)
+    )
+    (image "Adafruit nRF52 Bluefruit Feather:1X01_2MM"
+      (pin Round[A]Pad_1270_um (rotate 90) 1 0 0)
+    )
+    (padstack Round[A]Pad_1143_um
+      (shape (circle Top 1143))
+      (shape (circle Bottom 1143))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1270_um
+      (shape (circle Top 1270))
+      (shape (circle Bottom 1270))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1778_um
+      (shape (circle Top 1778))
+      (shape (circle Bottom 1778))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_800x280_70.266_um
+      (shape (polygon Top 0  342.202 139.199  354.032 136.028  365.133 130.852  375.166 123.827
+            383.827 115.166  390.852 105.133  396.028 94.032  399.199 82.202
+            400.266 70  400.266 -70  399.199 -82.202  396.028 -94.032  390.852 -105.133
+            383.827 -115.166  375.166 -123.827  365.133 -130.852  354.032 -136.028
+            342.202 -139.199  330 -140.266  -330 -140.266  -342.202 -139.199
+            -354.032 -136.028  -365.133 -130.852  -375.166 -123.827  -383.827 -115.166
+            -390.852 -105.133  -396.028 -94.032  -399.199 -82.202  -400.266 -70
+            -400.266 70  -399.199 82.202  -396.028 94.032  -390.852 105.133
+            -383.827 115.166  -375.166 123.827  -365.133 130.852  -354.032 136.028
+            -342.202 139.199  -330 140.266  330 140.266  342.202 139.199))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2000x1000_um
+      (shape (rect Top -1000 -500 1000 500))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_2413x2413_um
+      (shape (rect Top -1206.5 -1206.5 1206.5 1206.5))
+      (shape (rect Bottom -1206.5 -1206.5 1206.5 1206.5))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2500x2500_um
+      (shape (rect Top -1250 -1250 1250 1250))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_3400x1600_um
+      (shape (rect Top -1700 -800 1700 800))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_400x1350_um
+      (shape (rect Top -200 -675 200 675))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_550x1200_um
+      (shape (rect Top -275 -600 275 600))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_635x1016_um
+      (shape (rect Top -317.5 -508 317.5 508))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_760x2600_um
+      (shape (rect Top -380 -1300 380 1300))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_800x800_um
+      (shape (rect Top -400 -400 400 400))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_900x900_um
+      (shape (rect Top -450 -450 450 450))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1000x4600_um
+      (shape (rect Top -500 -2300 500 2300))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1075x1000_um
+      (shape (rect Top -537.5 -500 537.5 500))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1100x1900_um
+      (shape (rect Top -550 -950 550 950))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1168.4x1600.2_um
+      (shape (rect Top -584.2 -800.1 584.2 800.1))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1200x500_um
+      (shape (rect Top -600 -250 600 250))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1200x1200_um
+      (shape (rect Top -600 -600 600 600))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1240x1500_um
+      (shape (rect Top -620 -750 620 750))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1350x800_um
+      (shape (rect Top -675 -400 675 400))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1400x1400_um
+      (shape (rect Top -700 -700 700 700))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1500x2000_um
+      (shape (rect Top -750 -1000 750 1000))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1600x480_um
+      (shape (rect Top -800 -240 800 240))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1600x900_um
+      (shape (rect Top -800 -450 800 450))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle Top 800))
+      (shape (circle Bottom 800))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins MS1-4 U39-1 U10-BASE@2 U10-BASE@1 U10-GND U10-SPRT@2 U10-SPRT@1 U4-2 U6-2
+        U7-2 U8-2 U9-2 U16-C U18-2 U19-2 U20-2 U21-2 U22-2 U23-2 U26-1 U28-2 U29-2
+        U31-A' U31-A U32-B' U32-B U33-2 U34-2 U35-2 U37-C U38-THERM U38-2 U40-9 U40-7
+        U40-5 U40-3 U41-39 U41-24 U41-12 U41-1)
+    )
+    (net 3.3V
+      (pins MS1-2 MS1-3 U7-1 U8-1 U13-C U18-1 U24-2 U34-5 U38-7 U38-6 U38-5 U40-1
+        U41-11)
+    )
+    (net VBAT
+      (pins MS2-28 U39-2 U5-1 U20-1 U30-3 U33-3)
+    )
+    (net VBUS
+      (pins MS2-26 U10-VBUS U14-A U15-A U26-2 U30-1 U33-4 U38-8)
+    )
+    (net /RESET
+      (pins MS1-1 U11-1 U13-A U24-1 U32-A' U32-A U40-10 U41-35)
+    )
+    (net /DFU
+      (pins MS1-16 U31-B' U31-B U41-34)
+    )
+    (net /TXD
+      (pins MS1-15 U38-20 U41-19)
+    )
+    (net /RXD
+      (pins MS1-14 U2-2 U41-21)
+    )
+    (net /MISO
+      (pins MS1-13 U41-28)
+    )
+    (net /MOSI
+      (pins MS1-12 U41-27)
+    )
+    (net /SCK
+      (pins MS1-11 U41-26)
+    )
+    (net /A5/0.29
+      (pins MS1-10 U41-6)
+    )
+    (net /A4/0.28
+      (pins MS1-9 U41-5)
+    )
+    (net /A3/0.05
+      (pins MS1-8 U41-18)
+    )
+    (net /A2/0.04
+      (pins MS1-7 U41-17)
+    )
+    (net /A1/0.03
+      (pins MS1-6 U41-16)
+    )
+    (net /A0/0.02
+      (pins MS1-5 U41-15)
+    )
+    (net /SDA
+      (pins MS2-17 U41-2)
+    )
+    (net /SCL
+      (pins MS2-18 U41-3)
+    )
+    (net /P0.27
+      (pins MS2-19 U41-4)
+    )
+    (net /A6/P0.30
+      (pins MS2-20 U41-7)
+    )
+    (net /A7/P0.31
+      (pins MS2-21 U4-1 U5-2 U6-1 U41-8)
+    )
+    (net /P0.11
+      (pins MS2-22 U41-25)
+    )
+    (net /P0.07
+      (pins MS2-23 U41-20)
+    )
+    (net /P0.15
+      (pins MS2-24 U41-29)
+    )
+    (net /P0.16
+      (pins MS2-25 U41-30)
+    )
+    (net /EN
+      (pins MS2-27 U3-1 U34-3)
+    )
+    (net "Net-(U1-Pad41)"
+      (pins U41-41)
+    )
+    (net "Net-(U1-Pad40)"
+      (pins U41-40)
+    )
+    (net /FRST
+      (pins TP2-P$1 U41-38)
+    )
+    (net /SWDIO
+      (pins U40-2 U41-37)
+    )
+    (net /SWCLK
+      (pins U40-4 U41-36)
+    )
+    (net /LED2
+      (pins U36-2 U41-33)
+    )
+    (net /SWO
+      (pins U40-6 U41-32)
+    )
+    (net /LED1
+      (pins U25-2 U41-31)
+    )
+    (net /P0.10/NFC2
+      (pins U28-1 U41-23 U43-1)
+    )
+    (net /P0.09/NFC1
+      (pins U29-1 U41-22 U44-1)
+    )
+    (net "Net-(C2-Pad1)"
+      (pins U12-P$2 U22-1 U41-14)
+    )
+    (net "Net-(C1-Pad1)"
+      (pins U12-P$1 U23-1 U41-13)
+    )
+    (net "Net-(L2-Pad2)"
+      (pins U17-2 U41-10)
+    )
+    (net "Net-(C4-Pad1)"
+      (pins U17-1 U35-1 U41-9)
+    )
+    (net "Net-(X1-Pad8)"
+      (pins U40-8)
+    )
+    (net "Net-(D1-PadA)"
+      (pins U16-A U25-1)
+    )
+    (net "Net-(D2-PadA)"
+      (pins U36-1 U37-A)
+    )
+    (net "Net-(R8-Pad1)"
+      (pins U21-1 U33-5)
+    )
+    (net "Net-(R3-Pad2)"
+      (pins U27-2 U33-1)
+    )
+    (net "Net-(C6-Pad1)"
+      (pins U3-2 U14-C U19-1 U30-2 U34-1)
+    )
+    (net "Net-(U2-Pad4)"
+      (pins U34-4)
+    )
+    (net "Net-(X3-PadID)"
+      (pins U10-ID)
+    )
+    (net /USBD+
+      (pins U10-D+ U38-3)
+    )
+    (net "/USBD-"
+      (pins U10-"D-" U38-4)
+    )
+    (net "Net-(U4-Pad24)"
+      (pins U38-24)
+    )
+    (net /DTR
+      (pins U1-2 U38-23)
+    )
+    (net "Net-(U4-Pad22)"
+      (pins U38-22)
+    )
+    (net "Net-(R9-Pad1)"
+      (pins U2-1 U38-21)
+    )
+    (net "Net-(U4-Pad19)"
+      (pins U38-19)
+    )
+    (net "Net-(U4-Pad18)"
+      (pins U38-18)
+    )
+    (net "Net-(U4-Pad17)"
+      (pins U38-17)
+    )
+    (net "Net-(C7-Pad1)"
+      (pins U9-1 U38-16)
+    )
+    (net "Net-(U4-Pad15)"
+      (pins U38-15)
+    )
+    (net "Net-(U4-Pad14)"
+      (pins U38-14)
+    )
+    (net "Net-(U4-Pad13)"
+      (pins U38-13)
+    )
+    (net "Net-(U4-Pad12)"
+      (pins U38-12)
+    )
+    (net "Net-(U4-Pad11)"
+      (pins U38-11)
+    )
+    (net "Net-(U4-Pad10)"
+      (pins U38-10)
+    )
+    (net "Net-(U4-Pad9)"
+      (pins U38-9)
+    )
+    (net "Net-(U4-Pad1)"
+      (pins U38-1)
+    )
+    (net "Net-(C11-Pad1)"
+      (pins U1-1 U11-2)
+    )
+    (net "Net-(CHG1-PadC)"
+      (pins U15-C U27-1)
+    )
+    (class kicad_default "" /A0/0.02 /A1/0.03 /A2/0.04 /A3/0.05 /A4/0.28 /A5/0.29
+      /A6/P0.30 /A7/P0.31 /DFU /DTR /EN /FRST /LED1 /LED2 /MISO /MOSI /P0.07
+      /P0.09/NFC1 /P0.10/NFC2 /P0.11 /P0.15 /P0.16 /P0.27 /RESET /RXD /SCK
+      /SCL /SDA /SWCLK /SWDIO /SWO /TXD /USBD+ "/USBD-" 3.3V GND "Net-(C1-Pad1)"
+      "Net-(C11-Pad1)" "Net-(C2-Pad1)" "Net-(C4-Pad1)" "Net-(C6-Pad1)" "Net-(C7-Pad1)"
+      "Net-(CHG1-PadC)" "Net-(D1-PadA)" "Net-(D2-PadA)" "Net-(L2-Pad2)" "Net-(R3-Pad2)"
+      "Net-(R8-Pad1)" "Net-(R9-Pad1)" "Net-(U1-Pad40)" "Net-(U1-Pad41)" "Net-(U2-Pad4)"
+      "Net-(U4-Pad1)" "Net-(U4-Pad10)" "Net-(U4-Pad11)" "Net-(U4-Pad12)" "Net-(U4-Pad13)"
+      "Net-(U4-Pad14)" "Net-(U4-Pad15)" "Net-(U4-Pad17)" "Net-(U4-Pad18)"
+      "Net-(U4-Pad19)" "Net-(U4-Pad22)" "Net-(U4-Pad24)" "Net-(U4-Pad9)" "Net-(X1-Pad8)"
+      "Net-(X3-PadID)" VBAT VBUS
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

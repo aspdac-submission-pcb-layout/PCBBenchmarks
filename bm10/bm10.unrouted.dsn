@@ -1,0 +1,656 @@
+(pcb /Users/devon/TU1/PCBBenchmarks/bm10/bm10.unrouted.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(5.1.4-0-10_14)")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer Top
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer Route2
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (layer Route15
+      (type signal)
+      (property
+        (index 2)
+      )
+    )
+    (layer Bottom
+      (type signal)
+      (property
+        (index 3)
+      )
+    )
+    (boundary
+      (path pcb 0  177501 -134754  119501 -134754  119501 -75253.6  177501 -75253.6
+            177501 -134754)
+    )
+    (via "Via[0-3]_352.4:200_um" "Via[0-3]_700:400_um")
+    (rule
+      (width 127)
+      (clearance 127.1)
+      (clearance 127.1 (type default_smd))
+      (clearance 31.75 (type smd_smd))
+    )
+  )
+  (placement
+    (component "quadcopter:LEDSC125X200X120-2_HS"
+      (place U29 166501 -105754 front 270)
+      (place U28 163501 -105754 front 270)
+    )
+    (component quadcopter:FTDI_BASIC_2PIN_2
+      (place U47 159309 -85750.4 back 0)
+    )
+    (component quadcopter:HDRVR4W80P254_1X4_1066X254X850B
+      (place U57 156515 -105918 front 90)
+    )
+    (component quadcopter:FTDI_BASIC
+      (place U32 148488 -128473 front 0)
+    )
+    (component quadcopter:HDRV10W63P254_10X1_2540X254H838_HS
+      (place U55 148539 -123952 front 0)
+    )
+    (component quadcopter:MALE_HEADER_2X1_0.1IN
+      (place U30 130505 -104038 front 270)
+    )
+    (component quadcopter:FTDI_BASIC_2PIN_1
+      (place U48 137770 -117704 back 180)
+    )
+    (component "quadcopter:MOLEX-0530470210"
+      (place U33 175158 -118720 front 90)
+      (place U34 175057 -84886.8 front 90)
+      (place U36 121869 -118872 front 270)
+      (place U35 121869 -84632.8 front 270)
+    )
+    (component quadcopter:RESC2012X60_HS
+      (place U1 160001 -106754 front 90)
+      (place U2 168501 -106754 front 90)
+      (place U37 153501 -115754 front 90)
+      (place U38 145501 -115754 front 90)
+      (place U39 149501 -115754 front 90)
+      (place U40 170501 -125754 front 270)
+      (place U41 170501 -91753.6 front 90)
+      (place U42 126501 -91753.6 front 90)
+      (place U43 126501 -125754 front 270)
+    )
+    (component quadcopter:BALUN
+      (place U3 145501 -83916.2 front 270)
+    )
+    (component quadcopter:CAPC2012X140_HS
+      (place U4 158501 -89753.6 front 90)
+      (place U7 126501 -109754 front 270)
+      (place U8 136501 -109754 front 270)
+      (place U9 157501 -115754 front 270)
+      (place U10 146501 -106754 front 270)
+      (place U11 152501 -106754 front 270)
+      (place U12 158501 -93753.6 front 270)
+      (place U13 149501 -106754 front 270)
+      (place U14 141501 -83753.6 front 180)
+      (place U15 145501 -81453.6 front 0)
+      (place U16 152501 -101754 front 90)
+      (place U17 136501 -95753.6 front 270)
+      (place U18 154501 -97753.6 front 90)
+      (place U19 144501 -101754 front 270)
+      (place U20 153101 -85653.6 front 90)
+      (place U21 136501 -88753.6 front 90)
+    )
+    (component quadcopter:CAPMP7343X310_HS
+      (place U5 131501 -88753.6 front 270)
+      (place U6 131501 -122754 front 270)
+      (place U22 165501 -122754 front 270)
+      (place U23 165501 -88753.6 front 270)
+      (place U56 141501 -109754 front 270)
+    )
+    (component quadcopter:SOD3716X135_HS
+      (place U24 170501 -118754 front 270)
+      (place U25 170501 -84753.6 front 270)
+      (place U26 126501 -84753.6 front 270)
+      (place U27 126501 -118754 front 270)
+    )
+    (component "quadcopter:2X3-NS"
+      (place U31 167501 -98753.6 front 90)
+    )
+    (component quadcopter:4.5MM_TACTILE_SWITCH_TL3305AF160QG
+      (place U44 164501 -112754 front 180)
+    )
+    (component "quadcopter:QFN-64"
+      (place U45 145501 -91753.6 front 270)
+    )
+    (component "quadcopter:CRYSTAL-SMD-5X3"
+      (place U46 154501 -91753.6 front 270)
+    )
+    (component "quadcopter:SOT23-DBV"
+      (place U49 131501 -109754 front 270)
+    )
+    (component quadcopter:NEW_IMU_MEDIUM
+      (place U50 148501 -101754 front 180)
+    )
+    (component "quadcopter:N_FET_SI2302CDS-T1-E3CT-ND"
+      (place U51 174501 -125754 front 90)
+      (place U52 174501 -91753.6 front 90)
+      (place U53 122501 -91753.6 front 90)
+      (place U54 122501 -125754 front 90)
+    )
+    (component "quadcopter:ANT-2.4GHZ-6.5X2.2MM"
+      (place U58 147901 -77553.6 front 0)
+    )
+  )
+  (library
+    (image "quadcopter:LEDSC125X200X120-2_HS"
+      (pin RoundRect[T]Pad_940x990_240.612_um (rotate 180) 1 -1045 0)
+      (pin RoundRect[T]Pad_940x990_240.612_um 2 1045 0)
+    )
+    (image quadcopter:FTDI_BASIC_2PIN_2
+      (pin Round[A]Pad_1879.6_um (rotate 90) DTR -1270 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) CTS 1270 0)
+    )
+    (image quadcopter:HDRVR4W80P254_1X4_1066X254X850B
+      (pin Round[A]Pad_1997.1_um 4 3810 0)
+      (pin Round[A]Pad_1997.1_um 3 1270 0)
+      (pin Round[A]Pad_1997.1_um 2 -1270 0)
+      (pin Round[A]Pad_1997.1_um 1 -3810 0)
+    )
+    (image quadcopter:FTDI_BASIC
+      (pin Round[A]Pad_1879.6_um (rotate 90) VCC 1270 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) TXO -1270 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) RXI -3810 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) GND 6350 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) DTR -6350 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) CTS 3810 0)
+    )
+    (image quadcopter:HDRV10W63P254_10X1_2540X254H838_HS
+      (pin Round[A]Pad_1650_um 9 8890 0)
+      (pin Round[A]Pad_1650_um 8 6350 0)
+      (pin Round[A]Pad_1650_um 7 3810 0)
+      (pin Round[A]Pad_1650_um 6 1270 0)
+      (pin Round[A]Pad_1650_um 5 -1270 0)
+      (pin Round[A]Pad_1650_um 4 -3810 0)
+      (pin Round[A]Pad_1650_um 3 -6350 0)
+      (pin Round[A]Pad_1650_um 2 -8890 0)
+      (pin Round[A]Pad_1650_um 10 11430 0)
+      (pin Rect[A]Pad_1650x1650_um 1 -11430 0)
+    )
+    (image quadcopter:MALE_HEADER_2X1_0.1IN
+      (pin Round[A]Pad_1650_um (rotate 80) 2 1270 0)
+      (pin Rect[A]Pad_1650x1650_um 1 -1270 0)
+    )
+    (image quadcopter:FTDI_BASIC_2PIN_1
+      (pin Round[A]Pad_1879.6_um (rotate 90) TXO -1270 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) RXI 1270 0)
+    )
+    (image "quadcopter:MOLEX-0530470210"
+      (pin Round[A]Pad_750_um 2 -625 635)
+      (pin Rect[A]Pad_750x750_um 1 625 635)
+    )
+    (image quadcopter:RESC2012X60_HS
+      (pin RoundRect[T]Pad_920x1380_230.875_um (rotate 180) 1 -955 0)
+      (pin RoundRect[T]Pad_920x1380_230.875_um 2 955 0)
+    )
+    (image quadcopter:BALUN
+      (pin Rect[T]Pad_350x1000_um 6 -650 800)
+      (pin Rect[T]Pad_350x1000_um 5 0 800)
+      (pin Rect[T]Pad_350x1000_um 4 650 800)
+      (pin Rect[T]Pad_350x1000_um 3 650 -800)
+      (pin Rect[T]Pad_350x1000_um 2 0 -800)
+      (pin Rect[T]Pad_350x1000_um 1 -650 -800)
+    )
+    (image quadcopter:CAPC2012X140_HS
+      (pin RoundRect[T]Pad_1080x1420_249.345_um 2 895 0)
+      (pin RoundRect[T]Pad_1080x1420_249.345_um (rotate 180) 1 -895 0)
+    )
+    (image quadcopter:CAPMP7343X310_HS
+      (pin RoundRect[T]Pad_2370x2430_249.797_um 2 3120 0)
+      (pin RoundRect[T]Pad_2370x2430_249.797_um (rotate 180) 1 -3120 0)
+    )
+    (image quadcopter:SOD3716X135_HS
+      (pin RoundRect[T]Pad_1250x800_200.761_um (rotate 180) C -1665 0)
+      (pin RoundRect[T]Pad_1250x800_200.761_um A 1665 0)
+    )
+    (image "quadcopter:2X3-NS"
+      (pin Round[A]Pad_1879.6_um 6 2540 1270)
+      (pin Round[A]Pad_1879.6_um 5 2540 -1270)
+      (pin Round[A]Pad_1879.6_um 4 0 1270)
+      (pin Round[A]Pad_1879.6_um 3 0 -1270)
+      (pin Round[A]Pad_1879.6_um 2 -2540 1270)
+      (pin Rect[A]Pad_1879.6x1879.6_um 1 -2540 -1270)
+    )
+    (image quadcopter:4.5MM_TACTILE_SWITCH_TL3305AF160QG
+      (pin Rect[T]Pad_1400x1600_um (rotate 90) 4 3600 1500)
+      (pin Rect[T]Pad_1400x1600_um (rotate 90) 3 -3600 1500)
+      (pin Rect[T]Pad_1400x1600_um (rotate 90) 2 3600 -1500)
+      (pin Rect[T]Pad_1400x1600_um (rotate 90) 1 -3600 -1500)
+    )
+    (image "quadcopter:QFN-64"
+      (pin Rect[T]Pad_280x1562_um (rotate 270) 9 -4881 -250)
+      (pin Rect[T]Pad_280x1562_um (rotate 270) 8 -4881 250)
+      (pin Rect[T]Pad_280x1562_um (rotate 270) 7 -4881 750)
+      (pin Rect[T]Pad_280x1562_um 64 -3750 4881)
+      (pin Rect[T]Pad_280x1562_um 63 -3250 4881)
+      (pin Rect[T]Pad_280x1562_um 62 -2750 4881)
+      (pin Rect[T]Pad_280x1562_um 61 -2250 4881)
+      (pin Rect[T]Pad_280x1562_um 60 -1750 4881)
+      (pin Rect[T]Pad_280x1562_um (rotate 270) 6 -4881 1250)
+      (pin Rect[T]Pad_280x1562_um 59 -1250 4881)
+      (pin Rect[T]Pad_280x1562_um 58 -750 4881)
+      (pin Rect[T]Pad_280x1562_um 57 -250 4881)
+      (pin Rect[T]Pad_280x1562_um 56 250 4881)
+      (pin Rect[T]Pad_280x1562_um 55 750 4881)
+      (pin Rect[T]Pad_280x1562_um 54 1250 4881)
+      (pin Rect[T]Pad_280x1562_um 53 1750 4881)
+      (pin Rect[T]Pad_280x1562_um 52 2250 4881)
+      (pin Rect[T]Pad_280x1562_um 51 2750 4881)
+      (pin Rect[T]Pad_280x1562_um 50 3250 4881)
+      (pin Rect[T]Pad_280x1562_um (rotate 270) 5 -4881 1750)
+      (pin Rect[T]Pad_280x1562_um 49 3750 4881)
+      (pin Rect[T]Pad_280x1562_um (rotate 90) 48 4881 3750)
+      (pin Rect[T]Pad_280x1562_um (rotate 90) 47 4881 3250)
+      (pin Rect[T]Pad_280x1562_um (rotate 90) 46 4881 2750)
+      (pin Rect[T]Pad_280x1562_um (rotate 90) 45 4881 2250)
+      (pin Rect[T]Pad_280x1562_um (rotate 90) 44 4881 1750)
+      (pin Rect[T]Pad_280x1562_um (rotate 90) 43 4881 1250)
+      (pin Rect[T]Pad_280x1562_um (rotate 90) 42 4881 750)
+      (pin Rect[T]Pad_280x1562_um (rotate 90) 41 4881 250)
+      (pin Rect[T]Pad_280x1562_um (rotate 90) 40 4881 -250)
+      (pin Rect[T]Pad_280x1562_um (rotate 270) 4 -4881 2250)
+      (pin Rect[T]Pad_280x1562_um (rotate 90) 39 4881 -750)
+      (pin Rect[T]Pad_280x1562_um (rotate 90) 38 4881 -1250)
+      (pin Rect[T]Pad_280x1562_um (rotate 90) 37 4881 -1750)
+      (pin Rect[T]Pad_280x1562_um (rotate 90) 36 4881 -2250)
+      (pin Rect[T]Pad_280x1562_um (rotate 90) 35 4881 -2750)
+      (pin Rect[T]Pad_280x1562_um (rotate 90) 34 4881 -3250)
+      (pin Rect[T]Pad_280x1562_um (rotate 90) 33 4881 -3750)
+      (pin Rect[T]Pad_280x1562_um 32 3750 -4881)
+      (pin Rect[T]Pad_280x1562_um 31 3250 -4881)
+      (pin Rect[T]Pad_280x1562_um 30 2750 -4881)
+      (pin Rect[T]Pad_280x1562_um (rotate 270) 3 -4881 2750)
+      (pin Rect[T]Pad_280x1562_um 29 2250 -4881)
+      (pin Rect[T]Pad_280x1562_um (rotate 180) 28 1750 -4881)
+      (pin Rect[T]Pad_280x1562_um (rotate 180) 27 1250 -4881)
+      (pin Rect[T]Pad_280x1562_um (rotate 180) 26 750 -4881)
+      (pin Rect[T]Pad_280x1562_um (rotate 180) 25 250 -4881)
+      (pin Rect[T]Pad_280x1562_um (rotate 180) 24 -250 -4881)
+      (pin Rect[T]Pad_280x1562_um (rotate 180) 23 -750 -4881)
+      (pin Rect[T]Pad_280x1562_um (rotate 180) 22 -1250 -4881)
+      (pin Rect[T]Pad_280x1562_um (rotate 180) 21 -1750 -4881)
+      (pin Rect[T]Pad_280x1562_um (rotate 180) 20 -2250 -4881)
+      (pin Rect[T]Pad_280x1562_um (rotate 270) 2 -4881 3250)
+      (pin Rect[T]Pad_280x1562_um (rotate 180) 19 -2750 -4881)
+      (pin Rect[T]Pad_280x1562_um (rotate 180) 18 -3250 -4881)
+      (pin Rect[T]Pad_280x1562_um (rotate 180) 17 -3750 -4881)
+      (pin Rect[T]Pad_280x1562_um (rotate 90) 16 -4881 -3750)
+      (pin Rect[T]Pad_280x1562_um (rotate 90) 15 -4881 -3250)
+      (pin Rect[T]Pad_280x1562_um (rotate 270) 14 -4881 -2750)
+      (pin Rect[T]Pad_280x1562_um (rotate 270) 13 -4881 -2250)
+      (pin Rect[T]Pad_280x1562_um (rotate 270) 12 -4881 -1750)
+      (pin Rect[T]Pad_280x1562_um (rotate 270) 11 -4881 -1250)
+      (pin Rect[T]Pad_280x1562_um (rotate 270) 10 -4881 -750)
+      (pin Rect[T]Pad_280x1562_um (rotate 270) 1 -4881 3750)
+    )
+    (image "quadcopter:CRYSTAL-SMD-5X3"
+      (pin Rect[T]Pad_1900x1100_um 4 -1850 1150)
+      (pin Rect[T]Pad_1900x1100_um 3 1850 1150)
+      (pin Rect[T]Pad_1900x1100_um 2 1850 -1150)
+      (pin Rect[T]Pad_1900x1100_um 1 -1850 -1150)
+    )
+    (image "quadcopter:SOT23-DBV"
+      (pin Rect[T]Pad_550x1200_um 5 -950 1300)
+      (pin Rect[T]Pad_550x1200_um 4 950 1300)
+      (pin Rect[T]Pad_550x1200_um 3 950 -1300)
+      (pin Rect[T]Pad_550x1200_um 2 0 -1300)
+      (pin Rect[T]Pad_550x1200_um 1 -950 -1300)
+    )
+    (image quadcopter:NEW_IMU_MEDIUM
+      (pin Rect[T]Pad_850x270_um (rotate 180) VDDIO2 -1675 215)
+      (pin Rect[T]Pad_850x270_um (rotate 90) VDDIO -1505 1425)
+      (pin Rect[T]Pad_850x270_um (rotate 90) VDD2 -645 1425)
+      (pin Rect[T]Pad_850x270_um (rotate 90) VDD1 -215 1425)
+      (pin Rect[T]Pad_850x270_um (rotate 270) SDO_M -1505 -1425)
+      (pin Rect[T]Pad_850x270_um (rotate 180) SDO_A/G -1675 -645)
+      (pin Rect[T]Pad_850x270_um (rotate 180) SDA/SDI/SDO -1675 -215)
+      (pin Rect[T]Pad_850x270_um (rotate 180) SCL/SPC -1675 645)
+      (pin Rect[T]Pad_850x270_um (rotate 90) RES5 1505 1425)
+      (pin Rect[T]Pad_850x270_um RES4 1675 645)
+      (pin Rect[T]Pad_850x270_um RES3 1675 215)
+      (pin Rect[T]Pad_850x270_um RES2 1675 -215)
+      (pin Rect[T]Pad_850x270_um RES1 1675 -645)
+      (pin Rect[T]Pad_850x270_um (rotate 270) INT_M 215 -1425)
+      (pin Rect[T]Pad_850x270_um (rotate 270) INT2_A/G 1075 -1425)
+      (pin Rect[T]Pad_850x270_um (rotate 270) INT1_A/G 645 -1425)
+      (pin Rect[T]Pad_850x270_um (rotate 90) GND2 645 1425)
+      (pin Rect[T]Pad_850x270_um (rotate 90) GND1 1075 1425)
+      (pin Rect[T]Pad_850x270_um (rotate 270) DRDY_M -215 -1425)
+      (pin Rect[T]Pad_850x270_um (rotate 270) DEN_A/G 1505 -1425)
+      (pin Rect[T]Pad_850x270_um (rotate 270) CS_M -645 -1425)
+      (pin Rect[T]Pad_850x270_um (rotate 270) CS_A/G -1075 -1425)
+      (pin Rect[T]Pad_850x270_um (rotate 90) CAP 215 1425)
+      (pin Rect[T]Pad_850x270_um (rotate 90) C1 -1075 1425)
+    )
+    (image "quadcopter:N_FET_SI2302CDS-T1-E3CT-ND"
+      (pin Rect[T]Pad_1000x2000_um (rotate 270) S -1146 -950)
+      (pin Rect[T]Pad_1000x2000_um (rotate 270) G -1146 950)
+      (pin Rect[T]Pad_2900x2050_um (rotate 270) D 1136 0)
+    )
+    (image "quadcopter:ANT-2.4GHZ-6.5X2.2MM"
+      (pin Rect[T]Pad_1016x2540_um (rotate 180) NC 3302 0)
+      (pin Rect[T]Pad_1016x2540_um (rotate 180) FEED -3302 0)
+    )
+    (padstack Round[A]Pad_1650_um
+      (shape (circle Top 1650))
+      (shape (circle Route2 1650))
+      (shape (circle Route15 1650))
+      (shape (circle Bottom 1650))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1879.6_um
+      (shape (circle Top 1879.6))
+      (shape (circle Route2 1879.6))
+      (shape (circle Route15 1879.6))
+      (shape (circle Bottom 1879.6))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1997.1_um
+      (shape (circle Top 1997.1))
+      (shape (circle Route2 1997.1))
+      (shape (circle Route15 1997.1))
+      (shape (circle Bottom 1997.1))
+      (attach off)
+    )
+    (padstack Round[A]Pad_750_um
+      (shape (circle Top 750))
+      (shape (circle Route2 750))
+      (shape (circle Route15 750))
+      (shape (circle Bottom 750))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_920x1380_230.875_um
+      (shape (polygon Top 0  270.091 687.367  308.964 676.952  345.437 659.944  378.404 636.861
+            406.861 608.404  429.944 575.438  446.952 538.964  457.367 500.091
+            460.875 460  460.875 -460  457.367 -500.091  446.952 -538.964
+            429.944 -575.437  406.861 -608.404  378.404 -636.861  345.438 -659.944
+            308.964 -676.952  270.091 -687.367  230 -690.875  -230 -690.875
+            -270.091 -687.367  -308.964 -676.952  -345.437 -659.944  -378.404 -636.861
+            -406.861 -608.404  -429.944 -575.438  -446.952 -538.964  -457.367 -500.091
+            -460.875 -460  -460.875 460  -457.367 500.091  -446.952 538.964
+            -429.944 575.437  -406.861 608.404  -378.404 636.861  -345.438 659.944
+            -308.964 676.952  -270.091 687.367  -230 690.875  230 690.875
+            270.091 687.367))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_940x990_240.612_um
+      (shape (polygon Top 0  272.082 492.257  312.594 481.401  350.606 463.676  384.962 439.619
+            414.619 409.962  438.676 375.606  456.401 337.594  467.257 297.082
+            470.912 255.3  470.912 -255.3  467.257 -297.082  456.401 -337.594
+            438.676 -375.606  414.619 -409.962  384.962 -439.619  350.606 -463.676
+            312.594 -481.401  272.082 -492.257  230.3 -495.912  -230.3 -495.912
+            -272.082 -492.257  -312.594 -481.401  -350.606 -463.676  -384.962 -439.619
+            -414.619 -409.962  -438.676 -375.606  -456.401 -337.594  -467.257 -297.082
+            -470.912 -255.3  -470.912 255.3  -467.257 297.082  -456.401 337.594
+            -438.676 375.606  -414.619 409.962  -384.962 439.619  -350.606 463.676
+            -312.594 481.401  -272.082 492.257  -230.3 495.912  230.3 495.912
+            272.082 492.257))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_1080x1420_249.345_um
+      (shape (polygon Top 0  334.898 707.157  376.881 695.908  416.272 677.539  451.876 652.609
+            482.609 621.876  507.539 586.273  525.908 546.881  537.157 504.898
+            540.945 461.6  540.945 -461.6  537.157 -504.898  525.908 -546.881
+            507.539 -586.272  482.609 -621.876  451.876 -652.609  416.273 -677.539
+            376.881 -695.908  334.898 -707.157  291.6 -710.945  -291.6 -710.945
+            -334.898 -707.157  -376.881 -695.908  -416.272 -677.539  -451.876 -652.609
+            -482.609 -621.876  -507.539 -586.273  -525.908 -546.881  -537.157 -504.898
+            -540.945 -461.6  -540.945 461.6  -537.157 504.898  -525.908 546.881
+            -507.539 586.272  -482.609 621.876  -451.876 652.609  -416.273 677.539
+            -376.881 695.908  -334.898 707.157  -291.6 710.945  291.6 710.945
+            334.898 707.157))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_1250x800_200.761_um
+      (shape (polygon Top 0  459.862 397.711  493.664 388.654  525.38 373.864  554.047 353.792
+            578.792 329.047  598.864 300.381  613.654 268.664  622.711 234.862
+            625.761 200  625.761 -200  622.711 -234.862  613.654 -268.664
+            598.864 -300.38  578.792 -329.047  554.047 -353.792  525.381 -373.864
+            493.664 -388.654  459.862 -397.711  425 -400.761  -425 -400.761
+            -459.862 -397.711  -493.664 -388.654  -525.38 -373.864  -554.047 -353.792
+            -578.792 -329.047  -598.864 -300.381  -613.654 -268.664  -622.711 -234.862
+            -625.761 -200  -625.761 200  -622.711 234.862  -613.654 268.664
+            -598.864 300.38  -578.792 329.047  -554.047 353.792  -525.381 373.864
+            -493.664 388.654  -459.862 397.711  -425 400.761  425 400.761
+            459.862 397.711))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_2370x2430_249.797_um
+      (shape (polygon Top 0  979.527 1212.15  1021.59 1200.88  1061.05 1182.48  1096.72 1157.51
+            1127.51 1126.72  1152.48 1091.05  1170.88 1051.59  1182.15 1009.53
+            1185.95 966.15  1185.95 -966.15  1182.15 -1009.53  1170.88 -1051.59
+            1152.48 -1091.05  1127.51 -1126.72  1096.72 -1157.51  1061.05 -1182.48
+            1021.59 -1200.88  979.527 -1212.15  936.15 -1215.95  -936.15 -1215.95
+            -979.527 -1212.15  -1021.59 -1200.88  -1061.05 -1182.48  -1096.72 -1157.51
+            -1127.51 -1126.72  -1152.48 -1091.05  -1170.88 -1051.59  -1182.15 -1009.53
+            -1185.95 -966.15  -1185.95 966.15  -1182.15 1009.53  -1170.88 1051.59
+            -1152.48 1091.05  -1127.51 1126.72  -1096.72 1157.51  -1061.05 1182.48
+            -1021.59 1200.88  -979.527 1212.15  -936.15 1215.95  936.15 1215.95
+            979.527 1212.15))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_280x1562_um
+      (shape (rect Top -140 -781 140 781))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2900x2050_um
+      (shape (rect Top -1450 -1025 1450 1025))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_350x1000_um
+      (shape (rect Top -175 -500 175 500))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_550x1200_um
+      (shape (rect Top -275 -600 275 600))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_750x750_um
+      (shape (rect Top -375 -375 375 375))
+      (shape (rect Route2 -375 -375 375 375))
+      (shape (rect Route15 -375 -375 375 375))
+      (shape (rect Bottom -375 -375 375 375))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_850x270_um
+      (shape (rect Top -425 -135 425 135))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1000x2000_um
+      (shape (rect Top -500 -1000 500 1000))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1016x2540_um
+      (shape (rect Top -508 -1270 508 1270))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1400x1600_um
+      (shape (rect Top -700 -800 700 800))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1650x1650_um
+      (shape (rect Top -825 -825 825 825))
+      (shape (rect Route2 -825 -825 825 825))
+      (shape (rect Route15 -825 -825 825 825))
+      (shape (rect Bottom -825 -825 825 825))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1879.6x1879.6_um
+      (shape (rect Top -939.8 -939.8 939.8 939.8))
+      (shape (rect Route2 -939.8 -939.8 939.8 939.8))
+      (shape (rect Route15 -939.8 -939.8 939.8 939.8))
+      (shape (rect Bottom -939.8 -939.8 939.8 939.8))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1900x1100_um
+      (shape (rect Top -950 -550 950 550))
+      (attach off)
+    )
+    (padstack "Via[0-3]_352.4:200_um"
+      (shape (circle Top 352.4))
+      (shape (circle Route2 352.4))
+      (shape (circle Route15 352.4))
+      (shape (circle Bottom 352.4))
+      (attach off)
+    )
+    (padstack "Via[0-3]_700:400_um"
+      (shape (circle Top 700))
+      (shape (circle Route2 700))
+      (shape (circle Route15 700))
+      (shape (circle Bottom 700))
+      (attach off)
+    )
+  )
+  (network
+    (net 3V3
+      (pins U57-1 U32-VCC U55-8 U8-1 U13-1 U16-1 U17-1 U18-1 U19-1 U37-2 U38-2 U39-2
+        U45-59 U45-54 U45-44 U45-34 U45-23 U49-5 U50-VDDIO2 U50-VDDIO U50-VDD2 U50-VDD1
+        U50-SDO_M U50-SDO_A/G U50-DEN_A/G U50-CS_M U50-CS_A/G U56-1)
+    )
+    (net GND
+      (pins U29-1 U28-2 U47-CTS U57-2 U32-GND U55-1 U3-5 U4-2 U8-2 U10-2 U11-2 U12-2
+        U13-2 U14-2 U15-2 U16-2 U17-2 U18-2 U19-2 U20-2 U21-2 U31-6 U40-2 U41-2 U42-2
+        U43-2 U44-2 U44-1 U45-7 U45-61 U45-58 U45-55 U45-45 U45-35 U45-33 U45-24 U45-20
+        U45-11 U45-10 U49-2 U50-RES5 U50-RES4 U50-RES3 U50-RES2 U50-RES1 U50-GND2
+        U50-GND1 U56-2)
+    )
+    (net VBAT
+      (pins U55-7 U30-2 U33-1 U34-1 U36-1 U35-1 U5-1 U6-1 U7-1 U22-1 U23-1 U24-C U25-C
+        U26-C U27-C U49-3 U49-1)
+    )
+    (net BAT_GND
+      (pins U55-2 U30-1 U5-2 U6-2 U7-2 U22-2 U23-2 U51-S U52-S U53-S U54-S)
+    )
+    (net "Net-(B1-Pad3)"
+      (pins U3-3 U45-9)
+    )
+    (net "Net-(B1-Pad4)"
+      (pins U3-4 U45-8)
+    )
+    (net "Net-(C3-Pad1)"
+      (pins U20-1 U45-60)
+    )
+    (net "Net-(C1-Pad1)"
+      (pins U4-1 U45-57 U46-1)
+    )
+    (net "Net-(C2-Pad1)"
+      (pins U12-1 U45-56 U46-3)
+    )
+    (net /PWM3
+      (pins U55-4 U42-1 U45-51 U53-G)
+    )
+    (net /PWM2
+      (pins U55-5 U41-1 U45-50 U52-G)
+    )
+    (net /PWM1
+      (pins U55-6 U40-1 U45-49 U51-G)
+    )
+    (net /TX0
+      (pins U32-RXI U48-RXI U45-47)
+    )
+    (net /RX0
+      (pins U32-TXO U48-TXO U45-46)
+    )
+    (net /PWM4
+      (pins U55-3 U43-1 U45-41 U54-G)
+    )
+    (net /MISO
+      (pins U31-1 U45-39)
+    )
+    (net /MOSI
+      (pins U31-4 U45-38)
+    )
+    (net /SCK
+      (pins U31-3 U45-37)
+    )
+    (net /SDA
+      (pins U57-4 U55-9 U38-1 U45-26 U50-SDA/SDI/SDO)
+    )
+    (net /SCL
+      (pins U57-3 U55-10 U39-1 U45-25 U50-SCL/SPC)
+    )
+    (net "Net-(C4-Pad1)"
+      (pins U21-1 U45-22 U45-21)
+    )
+    (net /RESET
+      (pins U9-2 U31-5 U37-1 U44-4 U44-3 U45-12)
+    )
+    (net "Net-(D1-PadA)"
+      (pins U33-2 U24-A U51-D)
+    )
+    (net "Net-(C18-Pad1)"
+      (pins U10-1 U50-CAP)
+    )
+    (net "Net-(C19-Pad1)"
+      (pins U11-1 U50-C1)
+    )
+    (net "Net-(B1-Pad2)"
+      (pins U3-2 U14-1)
+    )
+    (net "Net-(B1-Pad1)"
+      (pins U3-1 U15-1 U58-FEED)
+    )
+    (net "Net-(D2-PadA)"
+      (pins U34-2 U25-A U52-D)
+    )
+    (net "Net-(D3-PadA)"
+      (pins U35-2 U26-A U53-D)
+    )
+    (net "Net-(D4-PadA)"
+      (pins U36-2 U27-A U54-D)
+    )
+    (net /DTR
+      (pins U47-DTR U32-DTR U9-1)
+    )
+    (net "Net-(D7-Pad1)"
+      (pins U28-1 U1-1)
+    )
+    (net "Net-(D8-Pad2)"
+      (pins U29-2 U2-1)
+    )
+    (net /LED2
+      (pins U1-2 U45-15)
+    )
+    (net /LED1
+      (pins U2-2 U45-14)
+    )
+    (class kicad_default "" /DTR /LED1 /LED2 /MISO /MOSI /PWM1 /PWM2 /PWM3
+      /PWM4 /RESET /RX0 /SCK /SCL /SDA /TX0 3V3 GND "Net-(B1-Pad1)" "Net-(B1-Pad2)"
+      "Net-(B1-Pad3)" "Net-(B1-Pad4)" "Net-(C1-Pad1)" "Net-(C18-Pad1)" "Net-(C19-Pad1)"
+      "Net-(C2-Pad1)" "Net-(C3-Pad1)" "Net-(C4-Pad1)" "Net-(D7-Pad1)" "Net-(D8-Pad2)"
+      (circuit
+        (use_via Via[0-3]_352.4:200_um)
+      )
+      (rule
+        (width 127)
+        (clearance 127.1)
+      )
+    )
+    (class Power BAT_GND "Net-(D1-PadA)" "Net-(D2-PadA)" "Net-(D3-PadA)" "Net-(D4-PadA)"
+      VBAT
+      (circuit
+        (use_via Via[0-3]_700:400_um)
+      )
+      (rule
+        (width 762)
+        (clearance 127.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

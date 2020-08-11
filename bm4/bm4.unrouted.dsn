@@ -1,0 +1,459 @@
+(pcb /Users/devon/TU1/PCBBenchmarks/bm4/bm4.unrouted.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(5.1.4-0-10_14)")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer Top
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer Bottom
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  168501 -125504  128501 -125504  128501 -84503.6  168501 -84503.6
+            168501 -125504)
+    )
+    (via "Via[0-1]_554:300_um")
+    (rule
+      (width 200)
+      (clearance 127.1)
+      (clearance 127.1 (type default_smd))
+      (clearance 31.75 (type smd_smd))
+    )
+  )
+  (placement
+    (component audioCodec:1X03
+      (place U48 166218 -110388 front 270)
+    )
+    (component "audioCodec:SJ-43514-SMT-TR"
+      (place U45 134518 -115519 front 90)
+    )
+    (component audioCodec:1X02
+      (place U31 144628 -123495 front 180)
+      (place U30 151130 -123444 front 180)
+      (place U29 157531 -123546 front 0)
+    )
+    (component audioCodec:2X6
+      (place U32 142392 -88544.4 front 0)
+    )
+    (component audioCodec:0603
+      (place U1 154321 -88673.6 front 270)
+      (place U2 152461 -119644 front 90)
+      (place U3 143351 -119644 front 90)
+      (place U4 145811 -119644 front 90)
+      (place U5 139761 -100294 front 180)
+      (place U6 143971 -96233.6 front 0)
+      (place U7 140481 -97123.6 front 270)
+      (place U8 151591 -95363.6 front 270)
+      (place U9 156691 -100504 front 180)
+      (place U10 156691 -98263.6 front 180)
+      (place U11 147051 -95363.6 front 90)
+      (place U12 150141 -111054 front 90)
+      (place U13 156741 -106704 front 180)
+      (place U14 139751 -102604 front 0)
+      (place U15 156761 -109704 front 180)
+      (place U16 156671 -96103.6 front 180)
+      (place U17 162751 -98983.6 front 180)
+      (place U18 162751 -101894 front 180)
+      (place U19 131531 -90203.6 front 0)
+      (place U20 131581 -93003.6 front 0)
+      (place U21 163121 -91173.6 front 0)
+      (place U22 163121 -93863.6 front 0)
+      (place U23 155821 -103584 front 90)
+      (place U24 156251 -119644 front 270)
+      (place U25 158811 -119644 front 270)
+      (place U26 149801 -119644 front 90)
+      (place U33 162801 -96243.6 front 180)
+      (place U34 131491 -87213.6 front 0)
+      (place U36 146941 -111064 front 90)
+      (place U37 144991 -111074 front 90)
+      (place U38 156611 -91443.6 front 90)
+      (place U39 156191 -115534 front 270)
+      (place U40 158841 -115524 front 270)
+      (place U41 160421 -108654 front 90)
+      (place U42 149281 -95333.6 front 90)
+      (place U43 161341 -112094 front 0)
+      (place U44 159071 -91443.6 front 90)
+      (place U47 138001 -106604 front 180)
+    )
+    (component "audioCodec:QFN50P700X700X100-49N"
+      (place U27 147901 -103034 front 180)
+    )
+    (component "audioCodec:SOT95P284X122-5N"
+      (place U28 157831 -87483.6 front 0)
+    )
+    (component "audioCodec:CMC-2242PBL-A"
+      (place U35 165871 -121814 front 180)
+    )
+    (component audioCodec:NRH2412T2R2MNGH
+      (place U46 162611 -87283.6 front 270)
+    )
+  )
+  (library
+    (image audioCodec:1X03
+      (pin Round[A]Pad_1879.6_um (rotate 90) 3 2540 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 2 0 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 1 -2540 0)
+    )
+    (image "audioCodec:SJ-43514-SMT-TR"
+      (pin Rect[T]Pad_2800x2000_um (rotate 90) 6 -5720 3590)
+      (pin Rect[T]Pad_2800x2800_um 5 8115 640)
+      (pin Rect[T]Pad_2800x2200_um (rotate 90) 4 -4820 -3810)
+      (pin Rect[T]Pad_2800x2000_um (rotate 90) 3 -2920 3590)
+      (pin Rect[T]Pad_2800x2800_um 2 4580 -3810)
+      (pin Rect[T]Pad_2800x2200_um (rotate 90) 1 -7620 -3810)
+      (keepout "" (circle Top 1700 -3720 -110))
+      (keepout "" (circle Bottom 1700 -3720 -110))
+      (keepout "" (circle Top 1700 3280 -110))
+      (keepout "" (circle Bottom 1700 3280 -110))
+    )
+    (image audioCodec:1X02
+      (pin Round[A]Pad_1879.6_um (rotate 90) 2 1270 0)
+      (pin Round[A]Pad_1879.6_um (rotate 90) 1 -1270 0)
+    )
+    (image audioCodec:2X6
+      (pin Round[A]Pad_1879.6_um 12 6350 1270)
+      (pin Round[A]Pad_1879.6_um 11 6350 -1270)
+      (pin Round[A]Pad_1879.6_um 10 3810 1270)
+      (pin Round[A]Pad_1879.6_um 9 3810 -1270)
+      (pin Round[A]Pad_1879.6_um 8 1270 1270)
+      (pin Round[A]Pad_1879.6_um 7 1270 -1270)
+      (pin Round[A]Pad_1879.6_um 6 -1270 1270)
+      (pin Round[A]Pad_1879.6_um 5 -1270 -1270)
+      (pin Round[A]Pad_1879.6_um 4 -3810 1270)
+      (pin Round[A]Pad_1879.6_um 3 -3810 -1270)
+      (pin Round[A]Pad_1879.6_um 2 -6350 1270)
+      (pin Round[A]Pad_1879.6_um 1 -6350 -1270)
+    )
+    (image audioCodec:0603
+      (pin Rect[T]Pad_1100x1000_um 2 850 0)
+      (pin Rect[T]Pad_1100x1000_um 1 -850 0)
+    )
+    (image "audioCodec:QFN50P700X700X100-49N"
+      (pin Rect[T]Pad_800x200_um 1 -3000 2200)
+      (pin Rect[T]Pad_800x200_um 2 -3000 1800)
+      (pin Rect[T]Pad_800x200_um 3 -3000 1400)
+      (pin Rect[T]Pad_800x200_um 4 -3000 1000)
+      (pin Rect[T]Pad_800x200_um 5 -3000 600)
+      (pin Rect[T]Pad_800x200_um 6 -3000 200)
+      (pin Rect[T]Pad_800x200_um 7 -3000 -200)
+      (pin Rect[T]Pad_800x200_um 8 -3000 -600)
+      (pin Rect[T]Pad_800x200_um 9 -3000 -1000)
+      (pin Rect[T]Pad_800x200_um 10 -3000 -1400)
+      (pin Rect[T]Pad_800x200_um 11 -3000 -1800)
+      (pin Rect[T]Pad_800x200_um 12 -3000 -2200)
+      (pin Rect[T]Pad_800x200_um (rotate 90) 13 -2200 -3000)
+      (pin Rect[T]Pad_800x200_um (rotate 90) 14 -1800 -3000)
+      (pin Rect[T]Pad_800x200_um (rotate 90) 15 -1400 -3000)
+      (pin Rect[T]Pad_800x200_um (rotate 90) 16 -1000 -3000)
+      (pin Rect[T]Pad_800x200_um (rotate 90) 17 -600 -3000)
+      (pin Rect[T]Pad_800x200_um (rotate 90) 18 -200 -3000)
+      (pin Rect[T]Pad_800x200_um (rotate 90) 19 200 -3000)
+      (pin Rect[T]Pad_800x200_um (rotate 90) 20 600 -3000)
+      (pin Rect[T]Pad_800x200_um (rotate 90) 21 1000 -3000)
+      (pin Rect[T]Pad_800x200_um (rotate 90) 22 1400 -3000)
+      (pin Rect[T]Pad_800x200_um (rotate 90) 23 1800 -3000)
+      (pin Rect[T]Pad_800x200_um (rotate 90) 24 2200 -3000)
+      (pin Rect[T]Pad_800x200_um 25 3000 -2200)
+      (pin Rect[T]Pad_800x200_um 26 3000 -1800)
+      (pin Rect[T]Pad_800x200_um 27 3000 -1400)
+      (pin Rect[T]Pad_800x200_um 28 3000 -1000)
+      (pin Rect[T]Pad_800x200_um 29 3000 -600)
+      (pin Rect[T]Pad_800x200_um 30 3000 -200)
+      (pin Rect[T]Pad_800x200_um 31 3000 200)
+      (pin Rect[T]Pad_800x200_um 32 3000 600)
+      (pin Rect[T]Pad_800x200_um 33 3000 1000)
+      (pin Rect[T]Pad_800x200_um 34 3000 1400)
+      (pin Rect[T]Pad_800x200_um 35 3000 1800)
+      (pin Rect[T]Pad_800x200_um 36 3000 2200)
+      (pin Rect[T]Pad_800x200_um (rotate 90) 37 2200 3000)
+      (pin Rect[T]Pad_800x200_um (rotate 90) 38 1800 3000)
+      (pin Rect[T]Pad_800x200_um (rotate 90) 39 1400 3000)
+      (pin Rect[T]Pad_800x200_um (rotate 90) 40 1000 3000)
+      (pin Rect[T]Pad_800x200_um (rotate 90) 41 600 3000)
+      (pin Rect[T]Pad_800x200_um (rotate 90) 42 200 3000)
+      (pin Rect[T]Pad_800x200_um (rotate 90) 43 -200 3000)
+      (pin Rect[T]Pad_800x200_um (rotate 90) 44 -600 3000)
+      (pin Rect[T]Pad_800x200_um (rotate 90) 45 -1000 3000)
+      (pin Rect[T]Pad_800x200_um (rotate 90) 46 -1400 3000)
+      (pin Rect[T]Pad_800x200_um (rotate 90) 47 -1800 3000)
+      (pin Rect[T]Pad_800x200_um (rotate 90) 48 -2200 3000)
+      (pin Rect[T]Pad_4318x4318_um (rotate 90) 49 0 0)
+    )
+    (image "audioCodec:SOT95P284X122-5N"
+      (pin Rect[T]Pad_1270x533.4_um 5 1219.2 939.8)
+      (pin Rect[T]Pad_1270x533.4_um 4 1219.2 -939.8)
+      (pin Rect[T]Pad_1270x533.4_um 3 -1219.2 -939.8)
+      (pin Rect[T]Pad_1270x533.4_um 2 -1219.2 0)
+      (pin Rect[T]Pad_1270x533.4_um 1 -1219.2 939.8)
+    )
+    (image "audioCodec:CMC-2242PBL-A"
+      (outline (path signal 120  3950 -900  3869.14 -1591.85  3630.9 -2246.4  3248.13 -2828.36
+            2741.48 -3306.37  2138.24 -3654.65  1470.94 -3854.42  775.566 -3894.92
+            89.59 -3773.97  -550 -3498.08  -1108.72 -3082.12  -1556.46 -2548.53
+            -1869.08 -1926.06  -2029.71 -1248.28  -2029.71 -551.721  -1869.08 126.06
+            -1556.46 748.527  -1108.72 1282.12  -550 1698.08  89.59 1973.97
+            775.566 2094.92  1470.94 2054.42  2138.24 1854.65  2741.48 1506.37
+            3248.13 1028.36  3630.9 446.398  3869.14 -208.152  3950 -900))
+      (pin Round[A]Pad_1192_um 2 1900 0)
+      (pin Round[A]Pad_1192_um 1 0 0)
+    )
+    (image audioCodec:NRH2412T2R2MNGH
+      (pin Rect[T]Pad_2000x700_um (rotate 90) 2 725 0)
+      (pin Rect[T]Pad_2000x700_um (rotate 90) 1 -725 0)
+    )
+    (padstack Round[A]Pad_1192_um
+      (shape (circle Top 1192))
+      (shape (circle Bottom 1192))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1879.6_um
+      (shape (circle Top 1879.6))
+      (shape (circle Bottom 1879.6))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2000x700_um
+      (shape (rect Top -1000 -350 1000 350))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2800x2000_um
+      (shape (rect Top -1400 -1000 1400 1000))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2800x2200_um
+      (shape (rect Top -1400 -1100 1400 1100))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2800x2800_um
+      (shape (rect Top -1400 -1400 1400 1400))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_4318x4318_um
+      (shape (rect Top -2159 -2159 2159 2159))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_800x200_um
+      (shape (rect Top -400 -100 400 100))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1100x1000_um
+      (shape (rect Top -550 -500 550 500))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1270x533.4_um
+      (shape (rect Top -635 -266.7 635 266.7))
+      (attach off)
+    )
+    (padstack "Via[0-1]_554:300_um"
+      (shape (circle Top 554))
+      (shape (circle Bottom 554))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins U48-2 U45-4 U32-11 U1-1 U2-2 U3-2 U4-2 U5-2 U8-1 U9-1 U10-1 U11-2 U12-1
+        U13-1 U14-1 U15-1 U17-2 U18-2 U19-2 U20-2 U21-2 U22-2 U26-2 U27-5 U27-15 U27-16
+        U27-22 U27-49 U28-2 U35-1 U42-2 U44-1)
+    )
+    (net 3.3V
+      (pins U32-2 U34-2)
+    )
+    (net 5V
+      (pins U32-12 U1-2 U28-1 U33-2 U38-1)
+    )
+    (net /SPKVDD
+      (pins U17-1 U18-1 U27-44 U27-48 U33-1)
+    )
+    (net /SPOLN
+      (pins U30-2 U26-1 U27-47)
+    )
+    (net "Net-(C20-Pad2)"
+      (pins U12-2 U27-46)
+    )
+    (net /SPORP
+      (pins U31-1 U4-1 U27-45)
+    )
+    (net /SPORN
+      (pins U31-2 U3-1 U27-43)
+    )
+    (net "Net-(IC1-Pad42)"
+      (pins U27-42)
+    )
+    (net /XAUDIO_IRQ
+      (pins U32-10 U27-41)
+    )
+    (net /XAUDIO_SDA
+      (pins U32-8 U27-40 U36-2)
+    )
+    (net /XADUIO_SCL
+      (pins U32-7 U27-39 U37-2)
+    )
+    (net /XAUDIO_I2S0_MCLK
+      (pins U32-6 U27-38)
+    )
+    (net /XADUIO_I2S0_BCLK
+      (pins U32-5 U27-37)
+    )
+    (net /XADUIO_I2S0_LRCKL
+      (pins U32-1 U27-36)
+    )
+    (net /XAUDIO_I2S0_DIN
+      (pins U32-4 U27-35)
+    )
+    (net /XAUDIO_I2S0_DOUT
+      (pins U32-3 U27-34)
+    )
+    (net "Net-(IC1-Pad33)"
+      (pins U27-33)
+    )
+    (net "Net-(IC1-Pad32)"
+      (pins U27-32)
+    )
+    (net "Net-(IC1-Pad31)"
+      (pins U27-31)
+    )
+    (net "Net-(IC1-Pad30)"
+      (pins U27-30)
+    )
+    (net /3.3VDD
+      (pins U48-1 U19-1 U20-1 U27-29 U34-1 U36-1 U37-1)
+    )
+    (net "Net-(C22-Pad2)"
+      (pins U14-2 U27-28)
+    )
+    (net "Net-(C14-Pad1)"
+      (pins U5-1 U27-27)
+    )
+    (net "Net-(C16-Pad2)"
+      (pins U7-2 U27-26)
+    )
+    (net "Net-(C16-Pad1)"
+      (pins U7-1 U27-25)
+    )
+    (net "Net-(C15-Pad1)"
+      (pins U6-1 U27-24)
+    )
+    (net "Net-(C15-Pad2)"
+      (pins U6-2 U27-23)
+    )
+    (net /1.8VDD
+      (pins U21-1 U22-1 U27-7 U27-13 U27-21 U28-4 U46-2)
+    )
+    (net "Net-(C2-Pad1)"
+      (pins U11-1 U27-20)
+    )
+    (net /HPOR
+      (pins U45-3 U27-19)
+    )
+    (net /HPOL
+      (pins U45-2 U27-18 U47-1)
+    )
+    (net /CPVREF
+      (pins U27-17 U42-1)
+    )
+    (net "Net-(C17-Pad2)"
+      (pins U8-2 U27-14)
+    )
+    (net /LOUTR
+      (pins U27-12 U40-1)
+    )
+    (net /LOUTL
+      (pins U27-11 U39-1)
+    )
+    (net "Net-(C24-Pad2)"
+      (pins U16-2 U27-10)
+    )
+    (net "Net-(C19-Pad2)"
+      (pins U10-2 U27-9)
+    )
+    (net "Net-(C18-Pad2)"
+      (pins U9-2 U27-8)
+    )
+    (net "Net-(C6-Pad2)"
+      (pins U23-2 U27-6)
+    )
+    (net /IN1P
+      (pins U45-1 U23-1 U27-4 U41-2)
+    )
+    (net "Net-(C21-Pad2)"
+      (pins U13-2 U27-3)
+    )
+    (net /MICBIAS1
+      (pins U15-2 U27-2 U41-1 U43-1)
+    )
+    (net /SPOLP
+      (pins U30-1 U2-1 U27-1)
+    )
+    (net /IN2P
+      (pins U48-3 U16-1 U35-2 U43-2)
+    )
+    (net "Net-(U1-Pad6)"
+      (pins U45-6)
+    )
+    (net "Net-(R10-Pad2)"
+      (pins U45-5 U47-2)
+    )
+    (net "Net-(C8-Pad2)"
+      (pins U29-2 U25-2)
+    )
+    (net "Net-(C7-Pad2)"
+      (pins U29-1 U24-2)
+    )
+    (net "Net-(J4-Pad9)"
+      (pins U32-9)
+    )
+    (net "Net-(C7-Pad1)"
+      (pins U24-1 U39-2)
+    )
+    (net "Net-(C8-Pad1)"
+      (pins U25-1 U40-2)
+    )
+    (net "Net-(IC2-Pad5)"
+      (pins U28-5 U46-1)
+    )
+    (net "Net-(IC2-Pad3)"
+      (pins U28-3 U38-2 U44-2)
+    )
+    (class kicad_default "" /1.8VDD /CPVREF /HPOL /HPOR /IN1P /IN2P /LOUTL
+      /LOUTR /MICBIAS1 /SPKVDD /SPOLN /SPOLP /SPORN /SPORP /XADUIO_I2S0_BCLK
+      /XADUIO_I2S0_LRCKL /XADUIO_SCL /XAUDIO_I2S0_DIN /XAUDIO_I2S0_DOUT /XAUDIO_I2S0_MCLK
+      /XAUDIO_IRQ /XAUDIO_SDA GND "Net-(C14-Pad1)" "Net-(C15-Pad1)" "Net-(C15-Pad2)"
+      "Net-(C16-Pad1)" "Net-(C16-Pad2)" "Net-(C17-Pad2)" "Net-(C18-Pad2)"
+      "Net-(C19-Pad2)" "Net-(C2-Pad1)" "Net-(C20-Pad2)" "Net-(C21-Pad2)" "Net-(C22-Pad2)"
+      "Net-(C24-Pad2)" "Net-(C6-Pad2)" "Net-(C7-Pad1)" "Net-(C7-Pad2)" "Net-(C8-Pad1)"
+      "Net-(C8-Pad2)" "Net-(IC1-Pad30)" "Net-(IC1-Pad31)" "Net-(IC1-Pad32)"
+      "Net-(IC1-Pad33)" "Net-(IC1-Pad42)" "Net-(IC2-Pad3)" "Net-(IC2-Pad5)"
+      "Net-(J4-Pad9)" "Net-(R10-Pad2)" "Net-(U1-Pad6)"
+      (circuit
+        (use_via Via[0-1]_554:300_um)
+      )
+      (rule
+        (width 200)
+        (clearance 127.1)
+      )
+    )
+    (class Power /3.3VDD 3.3V 5V
+      (circuit
+        (use_via Via[0-1]_554:300_um)
+      )
+      (rule
+        (width 406.4)
+        (clearance 127.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
